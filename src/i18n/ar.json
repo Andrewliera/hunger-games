@@ -1,0 +1,377 @@
+{
+  "home": {
+    "game_selector": {
+      "title": "What game would you like to play?",
+      "cards": {
+        "questions": {
+          "title": "أسئلة",
+          "description": "Tell us if the given image answers the questions"
+        },
+        "logos": {
+          "title": "Logos",
+          "description": "Find all the logos matching the given logo"
+        },
+        "eco_score": {
+          "title": "العلامة البيئية Eco-score",
+          "description": "Annotate the questions with the highest value"
+        }
+      }
+    },
+    "account_band": {
+      "title": "Want to make your contribution count? Create an account or sign in on Open Food Facts!",
+      "log_in": "اسم المستخدم",
+      "sign_up": "تسجيل الدخول",
+      "contribution_details": "Learn why your contribution matters"
+    },
+    "saved_filters": "Saved Filters",
+    "contribution_modal": {
+      "title": "Your contribution matters",
+      "information": "Hunger Games is an effort to leverage the results of our OCR and artificial intelligence. When you use Hunger Games by Open Food Facts, you improve our entire database which helps the community make better food choices. We gather your annotations and use them to make Open Food Facts more accurate and effecient.",
+      "thank_you": "Thank you for helping us improve Open Food Facts so that more people can use it easily."
+    },
+    "statistics": {
+      "title": "{{userName}} statistics:",
+      "editorCount": {
+        "title": "المحرر",
+        "description": "Number of editions done"
+      },
+      "contributorCount": {
+        "title": "Contributor",
+        "description": "Adding a new product"
+      },
+      "photographerCount": {
+        "title": "Photographer",
+        "description": "Taking photos for a product"
+      }
+    }
+  },
+  "flagged_images": {
+    "title": "Images flagged by users",
+    "loading": "Loading"
+  },
+  "questions": {
+    "category": "atassnifate",
+    "categories": "الفئات",
+    "label": "al3alama",
+    "labels": "علامات",
+    "brand": "3alama-tijariya",
+    "brands": "العلامات التجارية",
+    "quantity": "كمية",
+    "insightTypeLabel": "Only shows",
+    "ingredients": "المكونات",
+    "product_weight": "وزن المنتج",
+    "popularity_sort": "التصنيف عبر الشعبية",
+    "see_examples": "See examples of this ",
+    "no": "لا",
+    "skip": "Skip",
+    "yes": "نعم",
+    "no_questions_remaining": "لم يعد هناك أسئلة",
+    "countries": "بلدان",
+    "view": "مشاهدة",
+    "edit": "تحرير",
+    "hide_images": "إخفاء الصور (تحميل أسرع)",
+    "display_images": "عرض الصور",
+    "annotations": "Annotations",
+    "last_annotations": "الشروح الأخيرة",
+    "remaining_annotations": "Remaining questions",
+    "annotated_annotations": "مشروح",
+    "filters": {
+      "active_filter_number": "+{{count}} فلاتر",
+      "active_filter_number_one": "+{{count}} فلتر",
+      "active_filter_number_zero": "لا يوجد فلتر",
+      "short_label": {
+        "value": "قيمة",
+        "country": "الدولة",
+        "brand": "3alama-tijariya",
+        "popularity": "شعبية",
+        "campaign": "camp"
+      },
+      "long_label": {
+        "type": "نوع السؤال",
+        "value": "القيمة المقترحة",
+        "country": "بلد المنتج",
+        "brand": "العلامة التجارية للمنتج",
+        "popularity": "التصنيف عبر الشعبية",
+        "edit": "",
+        "campaign": "Campaign"
+      },
+      "placeholders": {
+        "value": "القيمة (فانتا،عضوي ، ...)",
+        "brand": "أوشان ، دانون ، هيرتا ، ...",
+        "campaign": "Annotation campaigns"
+      },
+      "actions": {
+        "edit": "تعديل الفلاتر",
+        "cancel": "إلغاء",
+        "apply": "طبق"
+      }
+    },
+    "other_questions": "Other questions",
+    "send": "Send",
+    "flag": "Something wrong? Report/flag the image!",
+    "unflag": "Unflag the image",
+    "reset_filters": "Reset filters",
+    "log_in": "اسم المستخدم",
+    "sign_up": "تسجيل الدخول",
+    "login_title": "Make your annotation count",
+    "login_description": "You are not currently logged into Open Food Facts. To get your answers directly applied to products, and associated to your account, consider logging in to your Open Food Facts account, or creating one",
+    "please_wait_while_we_fetch_the_question": "يُرجى الانتظار ريثما يتم البحث عن السؤال!"
+  },
+  "menu": {
+    "title": "Hunger Games",
+    "games": "نبتبنرترمر",
+    "questions": "أسئلة",
+    "logos": "Logos",
+    "logos-annotation": "شرح اللوغو",
+    "logos-search": "بحث اللوغو",
+    "logos-product-search": "الشرح لكل منتج",
+    "logos-deep-search": "Infinite annotation",
+    "manage": "يدير",
+    "insights": "تاريخ انتهاء صلاحية",
+    "nutritions": "حقائق غذائية",
+    "settings": "الإعدادات",
+    "eco-score": "العلامة البيئية Eco-score",
+    "dashboard": "Logos dashboard",
+    "tour": "Show tour",
+    "logged_in_user": "Logged as {{userName}}",
+    "log_in": "Click to login"
+  },
+  "insights": {
+    "insights": "تاريخ انتهاء صلاحية",
+    "barcode": "الرمز الشريطي",
+    "barcode_placeholder": "الرقم التسلسلي",
+    "value_tag": "علامة القيمة",
+    "value_placeholder": "مثال: موسلي، بيورك..",
+    "type": "Type",
+    "annotated": "مشروح",
+    "annotation": "التوضيح",
+    "not_annotated": "لم يوَضّح",
+    "all": "الكل",
+    "label": "al3alama",
+    "product_weight": "وزن المنتج",
+    "category": "فئة",
+    "expiration_date": "تاريخ انتهاء الصلاحية",
+    "packager_code": "رمز المعبئ",
+    "skipped": "تجاوز",
+    "rejected": "مرفوض (0)",
+    "accepted": "مقبول (1)",
+    "search": "بحث",
+    "count": "عدّ",
+    "id": "المعرّف",
+    "value": "القيمة",
+    "created_at": "أنشئ بتاريخ",
+    "completed_at": "أنجز بتاريخ",
+    "automatic": "آلي",
+    "human_required": "Human required",
+    "edit_product": "Open product edit",
+    "view_product": "Open product page"
+  },
+  "logos": {
+    "annotation": "الشرح: ",
+    "annotations": "تفاصيل عن الشعارات",
+    "task_description": "Select all logos that are exactly the same, and give them a name like \"en:EU Organic\" and a type like \"label\".",
+    "select_all": "اختيار الكل",
+    "unselect_all": "إلغاء تحديد الكل",
+    "distance": "مسافة:",
+    "value": "القيمة",
+    "submit": "إرسال",
+    "type": "Type",
+    "label": "al3alama",
+    "brand": "العلامة التجارية",
+    "packager_code": "رمز المعبئ",
+    "packaging": "التعبئة والتغليف",
+    "qr_code": "رمز الإستجابة السريع",
+    "category": "فئة",
+    "nutrition_label": "طابع المكونات الغذائية",
+    "no_logo": "Not a logo",
+    "store": "المتجر",
+    "detail": "تفاصيل الشعار",
+    "id": "هوية الشعار:",
+    "barcode": "الرقم التسلسلي:",
+    "full_image": "صورة كاملة",
+    "update": "تحديث",
+    "no_found": "لا يوجد شعار",
+    "search": "بحث",
+    "number_of_results": "عدد من النتائج:",
+    "loading": "جاري التحميل…",
+    "refresh": "تحديث",
+    "search_specific": "Search specific logo",
+    "load_more": "Load more",
+    "no_results": "لا يوجد شعار",
+    "result_count": "Shows {{showing}} on {{available}} available",
+    "flag": "Something wrong? Report/flag the image!",
+    "unflag": "Unflag the image",
+    "crop_image_title": "crop of the logo",
+    "no_more_questions": "No more questions about this logo. You can try to find more logos with the following game.",
+    "loading_messages": {
+      "pending_reference_logos": "We are loading some logos examples to initialise the serach",
+      "failed_reference_logos": "We did not find any logos with this annotation. Try to use the following game to annotate some of them."
+    }
+  },
+  "settings": {
+    "settings": "الإعدادات",
+    "language": "اللغات",
+    "save": "حفظ",
+    "reportIssue": "Found a bug? Please let us know.",
+    "dev_mode_title": "To get more options, activate the dev mode",
+    "dev_mode_label": "Dev Mode",
+    "dev_page_toggle": "Show {{name}} page",
+    "join_community": "الانضمام إلى المجتمع",
+    "text1": "Open Food Facts is a collaborative project built by tens of thousands of volunteers and managed by a non-profit organization with 8 employees. We need your donations to fund the Open Food Facts 2023 budget and to continue to develop the project.",
+    "thank_you": "Thank you",
+    "donate": "تبرع",
+    "join_the_community": {
+      "discover_our": "Discover our ",
+      "code_of_conduct": "Code of conduct ",
+      "join_us_on": "Join us on ",
+      "forum": "Forum",
+      "subscribe_to_our": "Subscribe to our ",
+      "newsletter": "newsletter"
+    },
+    "discover_the_project": "اكتشاف المشروع",
+    "Who_we_are": "من نحن",
+    "Vision_Mission_Values_and_Programs": "Vision, Mission, Values and Programs",
+    "FAQS": "FAQS",
+    "open_Food_Facts_blog": "Open Food Facts blog",
+    "Press": "صحافة",
+    "Open_Food_Facts_wiki": "Open Food Facts wiki (en)",
+    "Translators": "المترجمون",
+    "Partners": "شركاء",
+    "Open_Beauty_Facts": "Open Beauty Facts - مستحضرات التجميل",
+    "text2": "قاعدة بيانات التعاونية وحرة ومفتوحة للمنتجات الغذائية من جميع أنحاء العالم."
+  },
+  "helper": {
+    "welcome": {
+      "page1": {
+        "title": "Welcome to Hunger Games",
+        "text1": "Hunger Games is a collection of mini-games that help contribute to Open Food Facts in many ways. You can play are really exciting games from anywhere. Here is a guided tour of the entire website which will get you started.",
+        "text2": "Make sure to login to the Open Food Facts website to get credit for your contributions. If you make a mistake, please take the time to correct it by heading to the website.",
+        "text3": "In case of any doubt about the games, click on the question mark icon at the top right of the page, and you can reach us on slack at the #hunger-games channel"
+      },
+      "page2": {
+        "title": "Questions Game",
+        "text1": "Does the food product belong to this brand?",
+        "text2": "Simply answer with a <strong>Yes/No</strong>! Don't know the answer? That's alright, just skip it.",
+        "text3": "You can also use your keyboard shortcuts: y,n and k.",
+        "text4": "You can <strong>filter</strong> the products based on country, brands, popularity and much more!",
+        "text5": "If you don't want to do this every single time, you can also <strong>save the filters</strong> by clicking on the star. Next time you come back, find the saved filters on the home page itself"
+      },
+      "page3": {
+        "title": "Logos Game",
+        "text1": "Another popular game is the logos game where you have to <strong>select all the logos</strong> you feel are the same.",
+        "text2": "As shown in the example, once you select all the similar logos, just type their value and select where it is a brand, a label or something else. It's that simple!"
+      },
+      "page4": {
+        "title": "Eco-Score Questions Game",
+        "text1": "Help us finish the remaining questions in the most high priority labels!",
+        "text2": "These cards are linked to labels used in the computation of the Eco-Score.",
+        "text3": "<strong>What is Eco-Score?</strong>",
+        "text4": "Eco-Score captures the total environmental footprint, making it easier for consumers to compare products and decide which is better for the environment."
+      },
+      "page5": {
+        "title": "الإعدادات",
+        "text1": "Set your preferred language, and report issues from our settings page.",
+        "text2": "If you're a developer, you can also explore our database content using our dev mode."
+      },
+      "page6": {
+        "title": "Tour",
+        "text1": "Got stuck somewhere? Want to take the tour again?",
+        "text2": "Just click on the question mark and start the journey again!"
+      }
+    },
+    "logos": {
+      "page1": {
+        "title": "اختيار",
+        "text1": "حدد المنتجات التي تحمل نفس الشعار من خلال النقر عليها",
+        "text2": "الشعارات المحددة تذهب إلى الجزء العلوي من الصفحة، يمكنك إلغاء تحديدها بالنقر عليها مرة أخرى"
+      },
+      "page2": {
+        "title": "تحذير",
+        "text1": "If the crop contains multiple logos, do not select it.",
+        "text2": "If the crop contains only a partial part of a logo, you can select it."
+      },
+      "page3": {
+        "title": "التحقق",
+        "text1": "حدد نوع الشعار (ملصق، علامة التجارية، رمز QRcode، غير ذلك)",
+        "text2": "إذا كانت عبارة عن ملصق أو شعار علامة تجارية ، فاذكر أيهما هو",
+        "text3": "الآن يمكنك تقديم اختيارك",
+        "text4": "شكرا لك :)"
+      }
+    },
+    "previous": "السابق",
+    "next": "التالى",
+    "close": "إغلق"
+  },
+  "nutrition": {
+    "instructions": {
+      "cropTheTable": "قم بتحديد الصورة لتبسيط التعليق التوضيحي الخاص بك",
+      "verifyNutrimentDetected": "وضّح ما إذا كانت المغذيات المكتشفة صحيحة",
+      "selectMissingNutriments": "أضف العناصر الغذائية المفقودة (يمكنك النقر حتى إذا لم يكن للكلمة مربع)",
+      "selectValue": "اختر القيمة الغذائية لـ: "
+    },
+    "steps": {
+      "1": "قص (تحديد)",
+      "2": "قيم خاصة",
+      "3": "اختيار العناصر الغذائية",
+      "4": "اختيار القيم"
+    },
+    "loading": "Loading...",
+    "unknown_brand": "Brand Unknown",
+    "value_missing": "You forgot to input a value.",
+    "next": "Next step",
+    "prev": "Prev step",
+    "skip": "تخطي هذا المنتج",
+    "validate": "تحقق من صحة الجدول",
+    "unselect_picture": "لا توجد معلومات غذائية",
+    "basis": "بيانات عن: ",
+    "servingSize": "حجم الحصة",
+    "value": "القيمة",
+    "unit": "وحدة",
+    "nutriments": {
+      "nutriment_energy-kj": "(kJ) الطاقة",
+      "nutriment_energy-kcal": "الطاقة (كيلو كالوري)",
+      "nutriment_fat": "الدهون",
+      "nutriment_saturated-fat": "الدهون المشبعة",
+      "nutriment_carbohydrates": "كربوهيدرات",
+      "nutriment_sugars": "السكريات",
+      "nutriment_proteins": "البروتينات",
+      "nutriment_fiber": "الألياف الغذائية",
+      "nutriment_salt": "ملح",
+      "nutriment_sodium": "صوديوم"
+    },
+    "history": {
+      "title": "سجل الجلسة",
+      "status": "الحالة",
+      "product name": "اسم المنتج",
+      "view": "عرض الصفحة",
+      "edit": "تعديل الصفحة",
+      "SKIP": "تم تجاهله",
+      "VALIDATED": "تم التعديل",
+      "WRONG_IMAGE": "صورة غير محددة",
+      "close": "إغلاق",
+      "open": "فتح السجل"
+    }
+  },
+  "notfound": {
+    "image_alt": "404 not found",
+    "nopage": "Whoops! The page you're looking for can't be found.",
+    "redirect1": "Want to play some games?",
+    "redirect2": "Click here"
+  },
+  "nutriscore": {
+    "image_alt": "cropped image",
+    "label": "Annotate Nutri-Score logo detection by batch.",
+    "description": "To do so, select all the images showing the correct/wrong Nutri-Score value ({{label}}), and click on the bottom buttons to say if you selected a set correct or wrong ones.",
+    "images_remaining": "Still {{remaining}} to annotate",
+    "image_sizes": "Image sizes",
+    "zoom_on_logo": "Zoom on logo",
+    "select_all": "اختيار الكل",
+    "deselect_all": "إلغاء تحديد الكل",
+    "incorrect": "Wrong",
+    "correct": "Correct ({{label}})"
+  },
+  "eco-score": {
+    "description": "Here is a summary of questions that could improve Eco-Score computation",
+    "countryLabel": "Country"
+  }
+}

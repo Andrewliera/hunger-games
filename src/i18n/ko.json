@@ -1,0 +1,377 @@
+{
+  "home": {
+    "game_selector": {
+      "title": "어떤 게임을 하시겠습니까?",
+      "cards": {
+        "questions": {
+          "title": "질문",
+          "description": "주어진 이미지가 질문에 답하는지 알려주십시오."
+        },
+        "logos": {
+          "title": "로고",
+          "description": "주어진 로고와 일치하는 모든 로고 찾기"
+        },
+        "eco_score": {
+          "title": "친환경 점수",
+          "description": "가장 높은 값으로 질문에 주석 달기"
+        }
+      }
+    },
+    "account_band": {
+      "title": "귀하의 기여를 중요하게 생각하십니까? Open Food Facts에 계정을 만들거나 로그인하세요!",
+      "log_in": "Username",
+      "sign_up": "회원 가입",
+      "contribution_details": "기여가 중요한 이유 알아보기"
+    },
+    "saved_filters": "저장된 필터",
+    "contribution_modal": {
+      "title": "귀하의 기여가 중요합니다",
+      "information": "Hunger Games is an effort to leverage the results of our OCR and artificial intelligence. When you use Hunger Games by Open Food Facts, you improve our entire database which helps the community make better food choices. We gather your annotations and use them to make Open Food Facts more accurate and effecient.",
+      "thank_you": "Open Food Facts를 더 많은 사람들이 쉽게 사용할 수 있도록 개선하는 데 도움을 주셔서 감사합니다."
+    },
+    "statistics": {
+      "title": "{{userName}} 통계:",
+      "editorCount": {
+        "title": "편집자",
+        "description": "Number of editions done"
+      },
+      "contributorCount": {
+        "title": "기여자",
+        "description": "새 제품 추가"
+      },
+      "photographerCount": {
+        "title": "사진작가",
+        "description": "제품 사진 촬영"
+      }
+    }
+  },
+  "flagged_images": {
+    "title": "사용자가 신고한 이미지",
+    "loading": "로딩중…"
+  },
+  "questions": {
+    "category": "카테고리",
+    "categories": "카테고리",
+    "label": "상표",
+    "labels": "라벨",
+    "brand": "브랜드",
+    "brands": "브랜드",
+    "quantity": "양",
+    "insightTypeLabel": "표시 대상",
+    "ingredients": "성분",
+    "product_weight": "상품 무게",
+    "popularity_sort": "인기순 정렬",
+    "see_examples": "예시 확인하기 ",
+    "no": "아니요",
+    "skip": "건너뛰기",
+    "yes": "예",
+    "no_questions_remaining": "남은 질문이 없습니다",
+    "countries": "국가",
+    "view": "뷰",
+    "edit": "수정",
+    "hide_images": "사진 숨기기 (더 빨리 로딩)",
+    "display_images": "사진 표시",
+    "annotations": "주석",
+    "last_annotations": "마지막 주석",
+    "remaining_annotations": "남은 질문",
+    "annotated_annotations": "주석 달기",
+    "filters": {
+      "active_filter_number": "+{{count}} 필터",
+      "active_filter_number_one": "+{{count}} 필터",
+      "active_filter_number_zero": "필터 없음",
+      "short_label": {
+        "value": "값",
+        "country": "국가",
+        "brand": "브랜드",
+        "popularity": "인기도",
+        "campaign": "캠프"
+      },
+      "long_label": {
+        "type": "질문 유형",
+        "value": "제안된 가치",
+        "country": "제조국",
+        "brand": "제품 제조사",
+        "popularity": "인기순 정렬",
+        "edit": "",
+        "campaign": "캠페인"
+      },
+      "placeholders": {
+        "value": "가치 (환타, 영어:오가닉,...)",
+        "brand": "auchan, danone, herta, ...",
+        "campaign": "주석 캠페인"
+      },
+      "actions": {
+        "edit": "필터 수정",
+        "cancel": "취소",
+        "apply": "적용"
+      }
+    },
+    "other_questions": "다른 질문",
+    "send": "전송",
+    "flag": "뭔가 잘못되었나요? 이미지를 신고/신고하세요!",
+    "unflag": "이미지 플래그 해제",
+    "reset_filters": "필터 재설정",
+    "log_in": "Username",
+    "sign_up": "회원 가입",
+    "login_title": "주석을 중요하게 만들기",
+    "login_description": "You are not currently logged into Open Food Facts. To get your answers directly applied to products, and associated to your account, consider logging in to your Open Food Facts account, or creating one",
+    "please_wait_while_we_fetch_the_question": "Please wait while we fetch the question!"
+  },
+  "menu": {
+    "title": "헝거 게임",
+    "games": "게임",
+    "questions": "질문",
+    "logos": "로고",
+    "logos-annotation": "로고 주석",
+    "logos-search": "로고 검색",
+    "logos-product-search": "제품별 주석",
+    "logos-deep-search": "Infinite annotation",
+    "manage": "관리",
+    "insights": "인사이트",
+    "nutritions": "영양 성분 표시",
+    "settings": "설정",
+    "eco-score": "친환경 점수",
+    "dashboard": "Logos dashboard",
+    "tour": "Show tour",
+    "logged_in_user": "Logged as {{userName}}",
+    "log_in": "Click to login"
+  },
+  "insights": {
+    "insights": "인사이트",
+    "barcode": "바코드",
+    "barcode_placeholder": "바코드",
+    "value_tag": "값 태그",
+    "value_placeholder": "예시: en:mueslis, bjorg,...",
+    "type": "종류",
+    "annotated": "주석 달기",
+    "annotation": "주석",
+    "not_annotated": "주석 없음",
+    "all": "모두",
+    "label": "상표",
+    "product_weight": "상품 무게",
+    "category": "카테고리",
+    "expiration_date": "유통기한",
+    "packager_code": "포장 코드",
+    "skipped": "건너뜀 (-1)",
+    "rejected": "거부됨 (0)",
+    "accepted": "승인됨 (1)",
+    "search": "검색",
+    "count": "수량",
+    "id": "ID",
+    "value": "값",
+    "created_at": "생성일",
+    "completed_at": "완료일",
+    "automatic": "자동",
+    "human_required": "인간 필수",
+    "edit_product": "제품 편집 열기",
+    "view_product": "제품 페이지 열기"
+  },
+  "logos": {
+    "annotation": "주석: ",
+    "annotations": "로고 주석",
+    "task_description": "정확히 동일한 모든 로고를 선택하고 \"en:EU Organic\"과 같은 이름과 라벨과 같은 유형을 지정합니다.",
+    "select_all": "모두 선택",
+    "unselect_all": "선택 해제",
+    "distance": "거리:",
+    "value": "값",
+    "submit": "제출",
+    "type": "종류",
+    "label": "상표",
+    "brand": "브랜드",
+    "packager_code": "포장 코드",
+    "packaging": "포장",
+    "qr_code": "QR코드",
+    "category": "카테고리",
+    "nutrition_label": "영양 라벨",
+    "no_logo": "Not a logo",
+    "store": "상점",
+    "detail": "로고 상세정보",
+    "id": "로고 ID:",
+    "barcode": "바코드:",
+    "full_image": "전체 이미지",
+    "update": "업데이트",
+    "no_found": "로고를 찾을 수 없음",
+    "search": "검색",
+    "number_of_results": "결과 수:",
+    "loading": "로딩중…",
+    "refresh": "새로고침",
+    "search_specific": "특정 로고 검색",
+    "load_more": "더 불러오기",
+    "no_results": "로고를 찾을 수 없음",
+    "result_count": "{{showing}} 대 {{available}} 사용 가능 표시",
+    "flag": "뭔가 잘못되었나요? 이미지를 신고/신고하세요!",
+    "unflag": "이미지 플래그 해제",
+    "crop_image_title": "로고 자르기",
+    "no_more_questions": "No more questions about this logo. You can try to find more logos with the following game.",
+    "loading_messages": {
+      "pending_reference_logos": "We are loading some logos examples to initialise the serach",
+      "failed_reference_logos": "We did not find any logos with this annotation. Try to use the following game to annotate some of them."
+    }
+  },
+  "settings": {
+    "settings": "설정",
+    "language": "언어",
+    "save": "저장",
+    "reportIssue": "Found a bug? Please let us know.",
+    "dev_mode_title": "더 많은 옵션을 얻으려면 개발자 모드를 활성화하세요",
+    "dev_mode_label": "개발자 모드",
+    "dev_page_toggle": "{{name}} 페이지 보기",
+    "join_community": "커뮤니티에 참여",
+    "text1": "Open Food Facts is a collaborative project built by tens of thousands of volunteers and managed by a non-profit organization with 8 employees. We need your donations to fund the Open Food Facts 2023 budget and to continue to develop the project.",
+    "thank_you": "Thank you",
+    "donate": "기부",
+    "join_the_community": {
+      "discover_our": "Discover our ",
+      "code_of_conduct": "Code of conduct ",
+      "join_us_on": "Join us on ",
+      "forum": "Forum",
+      "subscribe_to_our": "Subscribe to our ",
+      "newsletter": "newsletter"
+    },
+    "discover_the_project": "프로젝트보세요",
+    "Who_we_are": "누가 우리가",
+    "Vision_Mission_Values_and_Programs": "비전, 사명, 가치 및 프로그램",
+    "FAQS": "FAQS",
+    "open_Food_Facts_blog": "Open Food Facts blog",
+    "Press": "프레스",
+    "Open_Food_Facts_wiki": "Open Food Facts wiki (en)",
+    "Translators": "번역에 도움을 주신 분들",
+    "Partners": "파트너",
+    "Open_Beauty_Facts": "Open Beauty Facts - 화장품",
+    "text2": "세계 각국에서 식품의 협업 무료 오픈 데이터베이스."
+  },
+  "helper": {
+    "welcome": {
+      "page1": {
+        "title": "헝거 게임에 오신 것을 환영합니다",
+        "text1": "헝거 게임은 다양한 방식으로 Open Food Facts에 기여하는 데 도움이 되는 미니 게임 모음입니다. 어디에서나 정말 흥미진진한 게임을 플레이할 수 있습니다. 시작하게 될 전체 웹사이트의 가이드 투어입니다.",
+        "text2": "기여에 대한 크레딧을 받으려면 Open Food Facts 웹사이트에 로그인하십시오. 오류가 있는 경우 웹사이트로 이동하여 시간을 내어 수정하십시오.",
+        "text3": "게임에 대해 궁금한 점이 있으면 페이지 오른쪽 상단에 있는 물음표 아이콘을 클릭하세요. Slack의 #hunger-games 채널에서 저희에게 연락하실 수 있습니다."
+      },
+      "page2": {
+        "title": "질문 게임",
+        "text1": "식품이 이 브랜드에 속합니까?",
+        "text2": "Simply answer with a <strong>Yes/No</strong>! Don't know the answer? That's alright, just skip it.",
+        "text3": "You can also use your keyboard shortcuts: y,n and k.",
+        "text4": "국가, 브랜드, 인기도 등을 기준으로 제품을 <strong>필터링</strong> 할 수 있습니다!",
+        "text5": "이 작업을 매번 수행하고 싶지 않다면 별을 클릭하여 <strong>필터를 저장할 수도 있습니다</strong>. 다음에 다시 방문하면 홈페이지 자체에서 저장된 필터를 찾으십시오."
+      },
+      "page3": {
+        "title": "로고스 게임",
+        "text1": "Another popular game is the logos game where you have to <strong>select all the logos</strong> you feel are the same.",
+        "text2": "예에서 볼 수 있듯이 유사한 로고를 모두 선택한 후 해당 값을 입력하고 브랜드, 라벨 또는 기타 항목을 선택하기만 하면 됩니다. 간단합니다!"
+      },
+      "page4": {
+        "title": "에코 점수 질문 게임",
+        "text1": "가장 우선 순위가 높은 라벨의 나머지 질문을 완료할 수 있도록 도와주세요!",
+        "text2": "These cards are linked to labels used in the computation of the Eco-Score.",
+        "text3": "<strong>에코 점수란?</strong>",
+        "text4": "에코 점수는 총 환경 발자국을 포착하여 소비자가 제품을 비교하고 어느 것이 환경에 더 좋은지 쉽게 결정할 수 있도록 합니다."
+      },
+      "page5": {
+        "title": "설정",
+        "text1": "선호하는 언어를 설정하고 설정 페이지에서 문제를 보고하세요.",
+        "text2": "개발자인 경우 개발 모드를 사용하여 데이터베이스 콘텐츠를 탐색할 수도 있습니다."
+      },
+      "page6": {
+        "title": "둘러보기",
+        "text1": "어디에 갇혀 있습니까? 둘러보기를 다시 원하십니까?",
+        "text2": "물음표를 클릭하고 여행을 다시 시작하세요!"
+      }
+    },
+    "logos": {
+      "page1": {
+        "title": "선택",
+        "text1": "자르기한 항목들 중 동일한 로고를 눌러 선택하세요",
+        "text2": "선택한 로고는 페이지 상단으로 이동합니다. 로고를 다시 눌러 선택을 취소할 수 있습니다"
+      },
+      "page2": {
+        "title": "경고",
+        "text1": "자르기에 여러 로고가 포함된 경우 선택하지 마십시오.",
+        "text2": "If the crop contains only a partial part of a logo, you can select it."
+      },
+      "page3": {
+        "title": "검사",
+        "text1": "로고 유형 선택 (라벨, 브랜드, QR코드, ...)",
+        "text2": "라벨이거나 브랜드 로고인 경우 어떤 것에 해당하는지 지정하세요",
+        "text3": "이제 선택한 사항을 제출할 수 있습니다",
+        "text4": "감사합니다 :)"
+      }
+    },
+    "previous": "이전",
+    "next": "다음",
+    "close": "닫기"
+  },
+  "nutrition": {
+    "instructions": {
+      "cropTheTable": "주석을 쉽게 생성하기 위해 사진을 자르세요",
+      "verifyNutrimentDetected": "인식된 영양소가 정확한지 검증해주세요",
+      "selectMissingNutriments": "누락된 영양소를 추가하세요 (단어 상자가 없어도 클릭 가능)",
+      "selectValue": "아래 항목들의 영양학적 가치를 선택하세요: "
+    },
+    "steps": {
+      "1": "자르기",
+      "2": "특별한 가치",
+      "3": "영양소 선택",
+      "4": "가치 선택"
+    },
+    "loading": "불러오는 중…",
+    "unknown_brand": "브랜드 알 수 없음",
+    "value_missing": "You forgot to input a value.",
+    "next": "Next step",
+    "prev": "Prev step",
+    "skip": "이 상품 건너뛰기",
+    "validate": "표 \b검사",
+    "unselect_picture": "영양 정보 없음",
+    "basis": "데이터 목적: ",
+    "servingSize": "1회 제공량",
+    "value": "값",
+    "unit": "단위",
+    "nutriments": {
+      "nutriment_energy-kj": "에너지 (kJ)",
+      "nutriment_energy-kcal": "열량 (kcal)",
+      "nutriment_fat": "지방",
+      "nutriment_saturated-fat": "포화 지방",
+      "nutriment_carbohydrates": "탄수화물",
+      "nutriment_sugars": "당류",
+      "nutriment_proteins": "단백질",
+      "nutriment_fiber": "섬유",
+      "nutriment_salt": "소금",
+      "nutriment_sodium": "나트륨"
+    },
+    "history": {
+      "title": "세션 내역",
+      "status": "상태",
+      "product name": "제품명",
+      "view": "페이지 보기",
+      "edit": "페이지 수정",
+      "SKIP": "무시함",
+      "VALIDATED": "편집함",
+      "WRONG_IMAGE": "선택되지 않은 사진",
+      "close": "닫기",
+      "open": "내역 열기"
+    }
+  },
+  "notfound": {
+    "image_alt": "404 찾을 수 없음",
+    "nopage": "이런! 요청하신 페이지를 찾을 수 없습니다.",
+    "redirect1": "게임을 하고 싶으신가요?",
+    "redirect2": "여기를 클릭"
+  },
+  "nutriscore": {
+    "image_alt": "자른 이미지",
+    "label": "배치별로 Nutri-Score 로고 감지에 주석을 답니다.",
+    "description": "그러려면 정확/잘못된 뉴트리-스코어 값({{label})을 보여주는 모든 이미지를 선택하고, 아래 버튼을 클릭하여 세트를 선택했는지, 잘못 선택했는지를 알려줍니다.",
+    "images_remaining": "여전히 주석을 달기 위해 {{remaining}}",
+    "image_sizes": "이미지 크기",
+    "zoom_on_logo": "로고 확대",
+    "select_all": "모두 선택",
+    "deselect_all": "선택 해제",
+    "incorrect": "잘못된",
+    "correct": "정답 ({{label}})"
+  },
+  "eco-score": {
+    "description": "다음은 에코 점수 계산을 개선할 수 있는 질문 요약입니다.",
+    "countryLabel": "국가"
+  }
+}

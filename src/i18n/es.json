@@ -1,0 +1,377 @@
+{
+  "home": {
+    "game_selector": {
+      "title": "¿A qué juego te gustaría jugar?",
+      "cards": {
+        "questions": {
+          "title": "Preguntas",
+          "description": "Dinos si la imagen dada responde a las preguntas"
+        },
+        "logos": {
+          "title": "Logotipo",
+          "description": "Encuentra todos los logos que coincidan con el logotipo dado"
+        },
+        "eco_score": {
+          "title": "Eco-Score",
+          "description": "Anota las preguntas con el valor más alto"
+        }
+      }
+    },
+    "account_band": {
+      "title": "¿Quieres que tu contribución cuente? ¡Cree una cuenta o inicie sesión en Open Food Facts!",
+      "log_in": "Usuario",
+      "sign_up": "Registrarse",
+      "contribution_details": "Descubra por qué su contribución es importante"
+    },
+    "saved_filters": "Filtros Guardados",
+    "contribution_modal": {
+      "title": "Tu aporte importa",
+      "information": "Hunger Games es un esfuerzo por aprovechar los resultados de nuestro OCR e inteligencia artificial. Cuando utilizas Los juegos del hambre de Open Food Facts, mejoras toda nuestra base de datos, lo que ayuda a la comunidad a elegir mejor los alimentos. Recopilamos tus anotaciones y las usamos para hacer que Open Food Facts sea más preciso y eficiente.",
+      "thank_you": "Gracias por ayudarnos a mejorar Open Food Facts para que más personas puedan usarlo fácilmente."
+    },
+    "statistics": {
+      "title": "{{userName}} estadísticas:",
+      "editorCount": {
+        "title": "Editor",
+        "description": "Número de ediciones realizadas"
+      },
+      "contributorCount": {
+        "title": "Colaborador",
+        "description": "Añadir un nuevo producto"
+      },
+      "photographerCount": {
+        "title": "Fotógrafo",
+        "description": "Tomar fotos de un producto"
+      }
+    }
+  },
+  "flagged_images": {
+    "title": "Imágenes marcadas por los usuarios",
+    "loading": "Cargando"
+  },
+  "questions": {
+    "category": "categoría",
+    "categories": "Categorías",
+    "label": "etiqueta",
+    "labels": "Etiquetas",
+    "brand": "marca",
+    "brands": "Marcas",
+    "quantity": "Cantidad",
+    "insightTypeLabel": "Solo mostrar",
+    "ingredients": "Ingredientes",
+    "product_weight": "peso del producto",
+    "popularity_sort": "Ordenar por popularidad",
+    "see_examples": "Ver ejemplos de esto ",
+    "no": "No",
+    "skip": "Omitir",
+    "yes": "Sí",
+    "no_questions_remaining": "No quedan preguntas",
+    "countries": "Países",
+    "view": "Ver",
+    "edit": "Editar",
+    "hide_images": "Ocultar imágenes (carga más rápida)",
+    "display_images": "Mostrar imagen",
+    "annotations": "Anotaciones",
+    "last_annotations": "Últimas notas",
+    "remaining_annotations": "Preguntas restantes",
+    "annotated_annotations": "Anotado",
+    "filters": {
+      "active_filter_number": "+{{count}} filtros",
+      "active_filter_number_one": "+{{count}} filtro",
+      "active_filter_number_zero": "Sin filtro",
+      "short_label": {
+        "value": "valor",
+        "country": "país",
+        "brand": "marca",
+        "popularity": "popularidad",
+        "campaign": "campamento"
+      },
+      "long_label": {
+        "type": "Tipo de pregunta",
+        "value": "Valor propuesto",
+        "country": "País del producto",
+        "brand": "Marca del producto",
+        "popularity": "Ordenar por popularidad",
+        "edit": "",
+        "campaign": "Campaña"
+      },
+      "placeholders": {
+        "value": "Valor (fanta, es:orgánico,...)",
+        "brand": "auchan, danone, herta, ...",
+        "campaign": "Campañas de notificación"
+      },
+      "actions": {
+        "edit": "Editar filtros",
+        "cancel": "Cancelar",
+        "apply": "Aplicar"
+      }
+    },
+    "other_questions": "Otras preguntas",
+    "send": "Enviar",
+    "flag": "¿Algo mal? ¡Reporta o marca la imagen!",
+    "unflag": "Desmarcar la imagen",
+    "reset_filters": "Restablecer filtros",
+    "log_in": "Usuario",
+    "sign_up": "Registrarse",
+    "login_title": "Haz que tu anotación cuente",
+    "login_description": "Actualmente no has iniciado sesión en Open Food Facts. Para obtener tus respuestas directamente aplicadas a los productos, y asociadas a tu cuenta, considera iniciar sesión en tu cuenta de Open Food Facts o simplemente crear una",
+    "please_wait_while_we_fetch_the_question": "¡Espere mientras buscamos la pregunta!"
+  },
+  "menu": {
+    "title": "Juegos del Hambre",
+    "games": "Juegos",
+    "questions": "Preguntas",
+    "logos": "Logotipo",
+    "logos-annotation": "Anotaciones de logotipo",
+    "logos-search": "Búsqueda de logotipo",
+    "logos-product-search": "Anotación por productos",
+    "logos-deep-search": "Anotación infinita",
+    "manage": "Administrar",
+    "insights": "Percepciones",
+    "nutritions": "Información nutricional",
+    "settings": "Configuración",
+    "eco-score": "Eco-Score",
+    "dashboard": "Panel de Logos",
+    "tour": "Mostrar recorrido",
+    "logged_in_user": "Sesión iniciada como {{userName}}",
+    "log_in": "Clic para iniciar sesión"
+  },
+  "insights": {
+    "insights": "Percepciones",
+    "barcode": "Código de barras",
+    "barcode_placeholder": "código de barras",
+    "value_tag": "Etiqueta valor",
+    "value_placeholder": "ej: en:mueslis, bjorg,...",
+    "type": "Tipo",
+    "annotated": "Anotado",
+    "annotation": "Notas",
+    "not_annotated": "No anotado",
+    "all": "Todo",
+    "label": "Etiqueta",
+    "product_weight": "Peso del producto",
+    "category": "Categoría",
+    "expiration_date": "Fecha de vencimiento",
+    "packager_code": "Código de envasador",
+    "skipped": "Omitido (-1)",
+    "rejected": "Rechazado (0)",
+    "accepted": "Aceptado (1)",
+    "search": "Buscar",
+    "count": "Cantidad",
+    "id": "Id",
+    "value": "Valor",
+    "created_at": "Creado en",
+    "completed_at": "Completado en",
+    "automatic": "Automático",
+    "human_required": "Humano requerido",
+    "edit_product": "Abrir edición de producto",
+    "view_product": "Abrir página de producto"
+  },
+  "logos": {
+    "annotation": "Anotación: ",
+    "annotations": "Anotaciones de logotipo",
+    "task_description": "Seleccione todos los logotipos que sean exactamente iguales y asígneles un nombre como \"en:EU Organic\" y un tipo como \"label\".",
+    "select_all": "Seleccionar todo",
+    "unselect_all": "Deseleccionar todo",
+    "distance": "Distancia:",
+    "value": "Valor",
+    "submit": "Enviar",
+    "type": "Tipo",
+    "label": "Etiqueta",
+    "brand": "Marca",
+    "packager_code": "Código de envasador",
+    "packaging": "Envase",
+    "qr_code": "Código QR",
+    "category": "Categoría",
+    "nutrition_label": "Tabla Nutricional",
+    "no_logo": "No es un logotipo",
+    "store": "Tienda",
+    "detail": "Detalle del logotipo",
+    "id": "ID del logotipo:",
+    "barcode": "Código de barras:",
+    "full_image": "Imagen completa",
+    "update": "Actualizar",
+    "no_found": "Ningún logo encontrado",
+    "search": "Buscar",
+    "number_of_results": "Número de resultados:",
+    "loading": "Cargando…",
+    "refresh": "Actualizar",
+    "search_specific": "Buscar logotipo específico",
+    "load_more": "Carga más",
+    "no_results": "Ningún logo encontrado",
+    "result_count": "Muestra {{showing}} en {{available}} disponible",
+    "flag": "¿Algo mal? ¡Reporta o marca la imagen!",
+    "unflag": "Desmarcar la imagen",
+    "crop_image_title": "recorte del logo",
+    "no_more_questions": "No hay más preguntas sobre este logo. Puedes intentar encontrar más logos con el siguiente juego.",
+    "loading_messages": {
+      "pending_reference_logos": "Estamos cargando algunos ejemplos de logos para inicializar la búsqueda",
+      "failed_reference_logos": "No hemos encontrado ningún logotipo con esta anotación. Intenta usar el siguiente juego para anotar algunos de ellos."
+    }
+  },
+  "settings": {
+    "settings": "Configuración",
+    "language": "Idiomas",
+    "save": "Guardar",
+    "reportIssue": "¿Has encontrado un error? Por favor, compártelo.",
+    "dev_mode_title": "Para obtener más opciones, active el modo dev",
+    "dev_mode_label": "Modo de desarrollador",
+    "dev_page_toggle": "Mostrar {{name}} página",
+    "join_community": "Únete a la comunidad",
+    "text1": "Open Food Facts es un proyecto colaborativo construido por decenas de miles de voluntarios y administrado por una organización sin fines de lucro con 8 empleados. Necesitamos tus donaciones para financiar el presupuesto de Open Food Facts 2023 y para continuar desarrollando el proyecto.",
+    "thank_you": "Gracias",
+    "donate": "Donar",
+    "join_the_community": {
+      "discover_our": "Descubre nuestro ",
+      "code_of_conduct": "Código de conducta ",
+      "join_us_on": "Únete a nosotros ",
+      "forum": "Foro",
+      "subscribe_to_our": "Suscríbete a nuestro ",
+      "newsletter": "boletín"
+    },
+    "discover_the_project": "Descubre el proyecto",
+    "Who_we_are": "Quiénes somos",
+    "Vision_Mission_Values_and_Programs": "Visión, misión, valores y programas",
+    "FAQS": "Preguntas frecuentes",
+    "open_Food_Facts_blog": "Blog de Open Food Facts",
+    "Press": "Prensa",
+    "Open_Food_Facts_wiki": "Wiki de Open Food Facts (en)",
+    "Translators": "Traductores",
+    "Partners": "Asociados",
+    "Open_Beauty_Facts": "Open Beauty Facts - Cosméticos",
+    "text2": "Una base de datos colaborativa, libre y abierta de productos alimenticios de todo el mundo."
+  },
+  "helper": {
+    "welcome": {
+      "page1": {
+        "title": "Bienvenidos a Los Juegos del Hambre",
+        "text1": "Hunger Games es una colección de minijuegos que ayudan a contribuir a Open Food Facts de muchas maneras. Puedes jugar juegos realmente emocionantes desde cualquier lugar. Aquí hay una visita guiada de todo el sitio web que lo ayudará a comenzar.",
+        "text2": "Asegúrese de iniciar sesión en el sitio web de Open Food Facts para obtener crédito por sus contribuciones. Si comete un error, tómese el tiempo para corregirlo dirigiéndose al sitio web.",
+        "text3": "En caso de duda sobre los juegos, haga clic en el icono del signo de interrogación en la parte superior derecha de la página y puede comunicarse con nosotros en Slack en el canal #hunger-games"
+      },
+      "page2": {
+        "title": "Juego de preguntas",
+        "text1": "¿El producto alimenticio pertenece a esta marca?",
+        "text2": "¡Simplemente responda con un <strong>Sí/No</strong>! ¿No sabes la respuesta? Eso está bien, solo sáltatelo.",
+        "text3": "También puedes utilizar los atajos de teclado: y,n y k.",
+        "text4": "¡Puede <strong>filtrar</strong> los productos según el país, las marcas, la popularidad y mucho más!",
+        "text5": "Si no desea hacer esto cada vez, puede <strong>guardar los filtros</strong> cliqueando en la estrella. La próxima vez que regrese, encontrará los filtros guardados en la página de inicio"
+      },
+      "page3": {
+        "title": "Juego de logotipos",
+        "text1": "Otro juego popular es el juego de logos en el que tienes que <strong>seleccionar todos los logos</strong> que creas que son iguales.",
+        "text2": "Como se muestra en el ejemplo, una vez que seleccione todos los logotipos similares, simplemente escriba su valor y seleccione si es una marca, una etiqueta u otra cosa. ¡Es así de simple!"
+      },
+      "page4": {
+        "title": "Juego de preguntas de puntuación ecológica",
+        "text1": "¡Ayúdenos a terminar las preguntas restantes en las etiquetas de mayor prioridad!",
+        "text2": "Estas tarjetas están vinculadas a las etiquetas utilizadas en el cálculo del Eco-Score.",
+        "text3": "<strong>¿Qué es el Eco-Score?</strong>",
+        "text4": "El Eco-Score captura la huella medioambiental total, facilitando a los consumidores comparar productos y decidir qué es mejor para el medio ambiente."
+      },
+      "page5": {
+        "title": "Configuración",
+        "text1": "Establezca su idioma preferido e informe problemas desde nuestra página de configuración.",
+        "text2": "Si es un desarrollador, también puede explorar el contenido de nuestra base de datos utilizando nuestro modo dev."
+      },
+      "page6": {
+        "title": "Visita",
+        "text1": "¿Te has atascado en alguna parte? ¿Quieres volver a hacer el tour?",
+        "text2": "¡Simplemente haga clic en el signo de interrogación y comience el viaje de nuevo!"
+      }
+    },
+    "logos": {
+      "page1": {
+        "title": "Selección",
+        "text1": "Seleccione los cultivos de un mismo logotipo haciendo clic en ellos",
+        "text2": "Los logos seleccionados van a la parte superior de la página, puedes deseleccionarlos haciendo clic de nuevo en ellos"
+      },
+      "page2": {
+        "title": "Atención",
+        "text1": "Si el recorte contiene varios logotipos, no lo seleccione.",
+        "text2": "Si el recorte contiene sólo una parte parcial de un logotipo, puedes seleccionarlo."
+      },
+      "page3": {
+        "title": "Validar",
+        "text1": "Indicar el tipo de logo (etiqueta, marca, QRcode, ...)",
+        "text2": "Si es una etiqueta o un logo de marca, indica cuál es",
+        "text3": "Ahora puedes enviar tu selección",
+        "text4": "Gracias :)"
+      }
+    },
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "close": "Cerrar"
+  },
+  "nutrition": {
+    "instructions": {
+      "cropTheTable": "Recorta la imagen para simplificar tu anotación",
+      "verifyNutrimentDetected": "Indica si el nutriente detectado es correcto",
+      "selectMissingNutriments": "Añadir los nutrientes faltantes (puedes hacer clic incluso si la palabra no tiene ningún recuadro)",
+      "selectValue": "Seleccione el valor nutricional de: "
+    },
+    "steps": {
+      "1": "Recortar",
+      "2": "Valores especiales",
+      "3": "Selección de nutrientes",
+      "4": "Selección de valores"
+    },
+    "loading": "Cargando...",
+    "unknown_brand": "Marca desconocida",
+    "value_missing": "Has olvidado ingresar un valor.",
+    "next": "Siguiente paso",
+    "prev": "Paso anterior",
+    "skip": "Omitir este producto",
+    "validate": "Validar tabla",
+    "unselect_picture": "Sin información nutricional",
+    "basis": "datos para: ",
+    "servingSize": "tamaño de la porción",
+    "value": "Valor",
+    "unit": "Unidad",
+    "nutriments": {
+      "nutriment_energy-kj": "Energía (kj)",
+      "nutriment_energy-kcal": "Energía (kCal)",
+      "nutriment_fat": "Grasas",
+      "nutriment_saturated-fat": "Grasa saturada",
+      "nutriment_carbohydrates": "Carbohidratos",
+      "nutriment_sugars": "Azúcares",
+      "nutriment_proteins": "Proteínas",
+      "nutriment_fiber": "Fibras",
+      "nutriment_salt": "Sal",
+      "nutriment_sodium": "Sodio"
+    },
+    "history": {
+      "title": "Historial de sesiones",
+      "status": "estado",
+      "product name": "nombre del producto",
+      "view": "ver página",
+      "edit": "editar página",
+      "SKIP": "ignorado",
+      "VALIDATED": "editado",
+      "WRONG_IMAGE": "imagen no seleccionada",
+      "close": "cerrar",
+      "open": "abrir historial"
+    }
+  },
+  "notfound": {
+    "image_alt": "404 no encontrado",
+    "nopage": "¡Ups! La página que estás buscando no se puede encontrar.",
+    "redirect1": "¿Quieres jugar algunos juegos?",
+    "redirect2": "Clic aquí"
+  },
+  "nutriscore": {
+    "image_alt": "imagen recortada",
+    "label": "Anote la detección del logotipo de Nutri-Score por lote.",
+    "description": "Para hacerlo, seleccione todas las imágenes que muestren el valor Nutri-Score correcto/incorrecto ({{label}}), y haga clic en los botones inferiores para decir si seleccionó un conjunto correcto o incorrecto.",
+    "images_remaining": "Todavía {{remaining}} para anotar",
+    "image_sizes": "Tamaños de imagen",
+    "zoom_on_logo": "Ampliar el logotipo",
+    "select_all": "Seleccionar todo",
+    "deselect_all": "Deseleccionar todo",
+    "incorrect": "Incorrecto",
+    "correct": "Correcto ({{label}})"
+  },
+  "eco-score": {
+    "description": "Aquí hay un resumen de preguntas que podrían mejorar el cálculo del Eco-Score",
+    "countryLabel": "País"
+  }
+}

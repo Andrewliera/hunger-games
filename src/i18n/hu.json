@@ -1,0 +1,377 @@
+{
+  "home": {
+    "game_selector": {
+      "title": "What game would you like to play?",
+      "cards": {
+        "questions": {
+          "title": "Kérdések",
+          "description": "Tell us if the given image answers the questions"
+        },
+        "logos": {
+          "title": "Logos",
+          "description": "Find all the logos matching the given logo"
+        },
+        "eco_score": {
+          "title": "Eco-Score",
+          "description": "Annotate the questions with the highest value"
+        }
+      }
+    },
+    "account_band": {
+      "title": "Want to make your contribution count? Create an account or sign in on Open Food Facts!",
+      "log_in": "Felhasználói név",
+      "sign_up": "Regisztráció",
+      "contribution_details": "Learn why your contribution matters"
+    },
+    "saved_filters": "Saved Filters",
+    "contribution_modal": {
+      "title": "Your contribution matters",
+      "information": "Hunger Games is an effort to leverage the results of our OCR and artificial intelligence. When you use Hunger Games by Open Food Facts, you improve our entire database which helps the community make better food choices. We gather your annotations and use them to make Open Food Facts more accurate and effecient.",
+      "thank_you": "Thank you for helping us improve Open Food Facts so that more people can use it easily."
+    },
+    "statistics": {
+      "title": "{{userName}} statistics:",
+      "editorCount": {
+        "title": "Szerkesztő",
+        "description": "Number of editions done"
+      },
+      "contributorCount": {
+        "title": "Hozzájáruló",
+        "description": "Adding a new product"
+      },
+      "photographerCount": {
+        "title": "Photographer",
+        "description": "Taking photos for a product"
+      }
+    }
+  },
+  "flagged_images": {
+    "title": "Images flagged by users",
+    "loading": "Loading"
+  },
+  "questions": {
+    "category": "kategória",
+    "categories": "Kategóriák",
+    "label": "címke",
+    "labels": "Címkék",
+    "brand": "márkanév",
+    "brands": "Márkanevek",
+    "quantity": "Mennyiség",
+    "insightTypeLabel": "Only shows",
+    "ingredients": "Összetevők",
+    "product_weight": "termék súlya",
+    "popularity_sort": "Rendezés népszerűség szerint",
+    "see_examples": "Lásd erre a példákat ",
+    "no": "Nem",
+    "skip": "Skip",
+    "yes": "Igen",
+    "no_questions_remaining": "Nincs több kérdés",
+    "countries": "Országok",
+    "view": "Megtekintés",
+    "edit": "Szerkesztés",
+    "hide_images": "Képek elrejtése (gyorsabb betöltés)",
+    "display_images": "Képek megjelenítése",
+    "annotations": "Annotations",
+    "last_annotations": "Legutóbbi megjegyzések",
+    "remaining_annotations": "Remaining questions",
+    "annotated_annotations": "Annotált",
+    "filters": {
+      "active_filter_number": "+{{count}} filters",
+      "active_filter_number_one": "+{{count}} filter",
+      "active_filter_number_zero": "no filter",
+      "short_label": {
+        "value": "érték",
+        "country": "ország",
+        "brand": "márkanév",
+        "popularity": "népszerűség",
+        "campaign": "camp"
+      },
+      "long_label": {
+        "type": "Kérdés típusa",
+        "value": "Javasolt érték",
+        "country": "Termék országa",
+        "brand": "Termék márkája",
+        "popularity": "Rendezés népszerűség szerint",
+        "edit": "",
+        "campaign": "Campaign"
+      },
+      "placeholders": {
+        "value": "Érték (fanta, en:organic, …)",
+        "brand": "Auchan, Danone, Aldi, …",
+        "campaign": "Annotation campaigns"
+      },
+      "actions": {
+        "edit": "Szűrők módosítása",
+        "cancel": "Mégse",
+        "apply": "Alkalmaz"
+      }
+    },
+    "other_questions": "Other questions",
+    "send": "Send",
+    "flag": "Something wrong? Report/flag the image!",
+    "unflag": "Unflag the image",
+    "reset_filters": "Reset filters",
+    "log_in": "Felhasználói név",
+    "sign_up": "Regisztráció",
+    "login_title": "Make your annotation count",
+    "login_description": "You are not currently logged into Open Food Facts. To get your answers directly applied to products, and associated to your account, consider logging in to your Open Food Facts account, or creating one",
+    "please_wait_while_we_fetch_the_question": "Please wait while we fetch the question!"
+  },
+  "menu": {
+    "title": "Hunger Games",
+    "games": "Játékok",
+    "questions": "Kérdések",
+    "logos": "Logos",
+    "logos-annotation": "Logos annotation",
+    "logos-search": "Logos search",
+    "logos-product-search": "Annotation per products",
+    "logos-deep-search": "Infinite annotation",
+    "manage": "Kezelés",
+    "insights": "Betekintés",
+    "nutritions": "Tápértékadatok",
+    "settings": "Beállítások",
+    "eco-score": "Eco-Score",
+    "dashboard": "Logos dashboard",
+    "tour": "Show tour",
+    "logged_in_user": "Logged as {{userName}}",
+    "log_in": "Click to login"
+  },
+  "insights": {
+    "insights": "Betekintés",
+    "barcode": "Vonalkód",
+    "barcode_placeholder": "vonalkód",
+    "value_tag": "Érték címke",
+    "value_placeholder": "pl: en:mueslis, bjorg…",
+    "type": "Típus",
+    "annotated": "Annotált",
+    "annotation": "Annotáció",
+    "not_annotated": "Nincs annotálva",
+    "all": "Összes",
+    "label": "Címke",
+    "product_weight": "Termék súly",
+    "category": "Kategória",
+    "expiration_date": "Lejárati dátum",
+    "packager_code": "Üzemkód",
+    "skipped": "Kihagyva (-1)",
+    "rejected": "Elutasítva (0)",
+    "accepted": "Elfogadva (1)",
+    "search": "Keresés",
+    "count": "Mennyiség",
+    "id": "Id",
+    "value": "Érték",
+    "created_at": "Létrehozva",
+    "completed_at": "Elkészült",
+    "automatic": "Automatikus",
+    "human_required": "Human required",
+    "edit_product": "Open product edit",
+    "view_product": "Open product page"
+  },
+  "logos": {
+    "annotation": "Annotáció: ",
+    "annotations": "Logó annotációk",
+    "task_description": "Select all logos that are exactly the same, and give them a name like \"en:EU Organic\" and a type like \"label\".",
+    "select_all": "Mindet kiválaszt",
+    "unselect_all": "Kijelölés megszüntetése",
+    "distance": "Távolság:",
+    "value": "Érték",
+    "submit": "Elküldés",
+    "type": "Típus",
+    "label": "Címke",
+    "brand": "Márkanév",
+    "packager_code": "Üzemkód",
+    "packaging": "Csomagolás",
+    "qr_code": "QR-kód",
+    "category": "Kategória",
+    "nutrition_label": "Tápérték címke",
+    "no_logo": "Not a logo",
+    "store": "Bolt",
+    "detail": "Logó részlete",
+    "id": "Logó ID:",
+    "barcode": "Vonalkód:",
+    "full_image": "Teljes kép",
+    "update": "Frissítés",
+    "no_found": "Nem található logó",
+    "search": "Keresés",
+    "number_of_results": "Találatok száma:",
+    "loading": "Betöltés…",
+    "refresh": "Refresh",
+    "search_specific": "Search specific logo",
+    "load_more": "Load more",
+    "no_results": "Nem található logó",
+    "result_count": "Shows {{showing}} on {{available}} available",
+    "flag": "Something wrong? Report/flag the image!",
+    "unflag": "Unflag the image",
+    "crop_image_title": "crop of the logo",
+    "no_more_questions": "No more questions about this logo. You can try to find more logos with the following game.",
+    "loading_messages": {
+      "pending_reference_logos": "We are loading some logos examples to initialise the serach",
+      "failed_reference_logos": "We did not find any logos with this annotation. Try to use the following game to annotate some of them."
+    }
+  },
+  "settings": {
+    "settings": "Beállítások",
+    "language": "Nyelvek",
+    "save": "Mentés",
+    "reportIssue": "Found a bug? Please let us know.",
+    "dev_mode_title": "To get more options, activate the dev mode",
+    "dev_mode_label": "Dev Mode",
+    "dev_page_toggle": "Show {{name}} page",
+    "join_community": "Csatlakozzon a közösséghez",
+    "text1": "Open Food Facts is a collaborative project built by tens of thousands of volunteers and managed by a non-profit organization with 8 employees. We need your donations to fund the Open Food Facts 2023 budget and to continue to develop the project.",
+    "thank_you": "Thank you",
+    "donate": "Adományozás",
+    "join_the_community": {
+      "discover_our": "Discover our ",
+      "code_of_conduct": "Code of conduct ",
+      "join_us_on": "Join us on ",
+      "forum": "Forum",
+      "subscribe_to_our": "Subscribe to our ",
+      "newsletter": "newsletter"
+    },
+    "discover_the_project": "Fedezze fel a projektet",
+    "Who_we_are": "Kik vagyunk",
+    "Vision_Mission_Values_and_Programs": "Jövőkép, küldetés, értékek és programok",
+    "FAQS": "FAQS",
+    "open_Food_Facts_blog": "Open Food Facts blog",
+    "Press": "Sajtó",
+    "Open_Food_Facts_wiki": "Open Food Facts wiki (en)",
+    "Translators": "Fordítók",
+    "Partners": "Partnerek",
+    "Open_Beauty_Facts": "Open Beauty Facts - Kozmetikumok",
+    "text2": "Együttműködésen alapuló, élelmiszerek ingyenes és nyílt adatbázisa a világ minden tájáról."
+  },
+  "helper": {
+    "welcome": {
+      "page1": {
+        "title": "Welcome to Hunger Games",
+        "text1": "Hunger Games is a collection of mini-games that help contribute to Open Food Facts in many ways. You can play are really exciting games from anywhere. Here is a guided tour of the entire website which will get you started.",
+        "text2": "Make sure to login to the Open Food Facts website to get credit for your contributions. If you make a mistake, please take the time to correct it by heading to the website.",
+        "text3": "In case of any doubt about the games, click on the question mark icon at the top right of the page, and you can reach us on slack at the #hunger-games channel"
+      },
+      "page2": {
+        "title": "Questions Game",
+        "text1": "Does the food product belong to this brand?",
+        "text2": "Simply answer with a <strong>Yes/No</strong>! Don't know the answer? That's alright, just skip it.",
+        "text3": "You can also use your keyboard shortcuts: y,n and k.",
+        "text4": "You can <strong>filter</strong> the products based on country, brands, popularity and much more!",
+        "text5": "If you don't want to do this every single time, you can also <strong>save the filters</strong> by clicking on the star. Next time you come back, find the saved filters on the home page itself"
+      },
+      "page3": {
+        "title": "Logos Game",
+        "text1": "Another popular game is the logos game where you have to <strong>select all the logos</strong> you feel are the same.",
+        "text2": "As shown in the example, once you select all the similar logos, just type their value and select where it is a brand, a label or something else. It's that simple!"
+      },
+      "page4": {
+        "title": "Eco-Score Questions Game",
+        "text1": "Help us finish the remaining questions in the most high priority labels!",
+        "text2": "These cards are linked to labels used in the computation of the Eco-Score.",
+        "text3": "<strong>What is Eco-Score?</strong>",
+        "text4": "Eco-Score captures the total environmental footprint, making it easier for consumers to compare products and decide which is better for the environment."
+      },
+      "page5": {
+        "title": "Beállítások",
+        "text1": "Set your preferred language, and report issues from our settings page.",
+        "text2": "If you're a developer, you can also explore our database content using our dev mode."
+      },
+      "page6": {
+        "title": "Tour",
+        "text1": "Got stuck somewhere? Want to take the tour again?",
+        "text2": "Just click on the question mark and start the journey again!"
+      }
+    },
+    "logos": {
+      "page1": {
+        "title": "Kiválasztás",
+        "text1": "Válassza ki ugyanannak a logónak a kivágott képeit rájuk kattintva",
+        "text2": "A kiválasztott logók az oldal tetejére kerülnek, a kijelölésüket az ismételt kattintással törölheti"
+      },
+      "page2": {
+        "title": "Figyelmeztetés",
+        "text1": "If the crop contains multiple logos, do not select it.",
+        "text2": "If the crop contains only a partial part of a logo, you can select it."
+      },
+      "page3": {
+        "title": "Érvényesítés",
+        "text1": "Jelezze a logó típusát (címke, márka, QR-kód, …)",
+        "text2": "Ha ez egy címke vagy márkalogó, jelezze, melyik",
+        "text3": "Most elküldheti a választását",
+        "text4": "Köszönjük :)"
+      }
+    },
+    "previous": "Előző",
+    "next": "Következő",
+    "close": "Bezár"
+  },
+  "nutrition": {
+    "instructions": {
+      "cropTheTable": "Vágja körül a képet a kommentár egyszerűsítéséhez",
+      "verifyNutrimentDetected": "Jelezze, hogy az észlelt tápanyag helyes-e",
+      "selectMissingNutriments": "Adja hozzá a hiányzó tápanyagokat (akkor is kattinthat, ha a szónak nincs doboza)",
+      "selectValue": "Válassza ki a tápértékét: "
+    },
+    "steps": {
+      "1": "Körülvágás",
+      "2": "Különleges értékek",
+      "3": "Tápanyagok kiválasztása",
+      "4": "Értékek kiválasztása"
+    },
+    "loading": "Loading...",
+    "unknown_brand": "Brand Unknown",
+    "value_missing": "You forgot to input a value.",
+    "next": "Next step",
+    "prev": "Prev step",
+    "skip": "Hagyja ki ezt a terméket",
+    "validate": "Táblázat érvényesítése",
+    "unselect_picture": "Nincs táplálkozási információ",
+    "basis": "adatok ehhez: ",
+    "servingSize": "adag",
+    "value": "Érték",
+    "unit": "Mértékegység",
+    "nutriments": {
+      "nutriment_energy-kj": "Energia (kJ)",
+      "nutriment_energy-kcal": "Energia (kcal)",
+      "nutriment_fat": "Zsír",
+      "nutriment_saturated-fat": "Telített zsír",
+      "nutriment_carbohydrates": "Szénhidrát",
+      "nutriment_sugars": "Cukrok",
+      "nutriment_proteins": "Fehérje",
+      "nutriment_fiber": "Rostok",
+      "nutriment_salt": "Só",
+      "nutriment_sodium": "Nátrium"
+    },
+    "history": {
+      "title": "Munkamenet előzmények",
+      "status": "állapot",
+      "product name": "termék neve",
+      "view": "oldal megtekintése",
+      "edit": "oldal szerkesztése",
+      "SKIP": "figyelmen kívül hagyva",
+      "VALIDATED": "szerkesztve",
+      "WRONG_IMAGE": "nem kiválasztott kép",
+      "close": "bezár",
+      "open": "előzmények megnyitása"
+    }
+  },
+  "notfound": {
+    "image_alt": "404 not found",
+    "nopage": "Whoops! The page you're looking for can't be found.",
+    "redirect1": "Want to play some games?",
+    "redirect2": "Click here"
+  },
+  "nutriscore": {
+    "image_alt": "cropped image",
+    "label": "Annotate Nutri-Score logo detection by batch.",
+    "description": "To do so, select all the images showing the correct/wrong Nutri-Score value ({{label}}), and click on the bottom buttons to say if you selected a set correct or wrong ones.",
+    "images_remaining": "Still {{remaining}} to annotate",
+    "image_sizes": "Image sizes",
+    "zoom_on_logo": "Zoom on logo",
+    "select_all": "Mindet kiválaszt",
+    "deselect_all": "Kijelölés megszüntetése",
+    "incorrect": "Wrong",
+    "correct": "Correct ({{label}})"
+  },
+  "eco-score": {
+    "description": "Here is a summary of questions that could improve Eco-Score computation",
+    "countryLabel": "Ország"
+  }
+}

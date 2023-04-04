@@ -1,0 +1,377 @@
+{
+  "home": {
+    "game_selector": {
+      "title": "What game would you like to play?",
+      "cards": {
+        "questions": {
+          "title": "Questions",
+          "description": "Tell us if the given image answers the questions"
+        },
+        "logos": {
+          "title": "Logoak",
+          "description": "Find all the logos matching the given logo"
+        },
+        "eco_score": {
+          "title": "Eco-score",
+          "description": "Annotate the questions with the highest value"
+        }
+      }
+    },
+    "account_band": {
+      "title": "Want to make your contribution count? Create an account or sign in on Open Food Facts!",
+      "log_in": "Erabiltzaile-izena",
+      "sign_up": "Eman izena",
+      "contribution_details": "Learn why your contribution matters"
+    },
+    "saved_filters": "Saved Filters",
+    "contribution_modal": {
+      "title": "Your contribution matters",
+      "information": "Hunger Games gure OCR eta adimen artifizialaren emaitzak aprobetxatzeko ahalegina da. Open Food Facts-en Hunger Games erabiltzen duzunean, gure datu-base osoa hobetzen duzu eta horrek komunitateari janariaren aukeraketa hobetzen laguntzen dio. Zure oharrak biltzen ditugu eta Open Food Facts zehatzagoa eta eraginkorragoa izan dadin erabiltzen ditugu.",
+      "thank_you": "Thank you for helping us improve Open Food Facts so that more people can use it easily."
+    },
+    "statistics": {
+      "title": "{{userName}} statistics:",
+      "editorCount": {
+        "title": "Editor",
+        "description": "Egindako edizio kopurua"
+      },
+      "contributorCount": {
+        "title": "Ekarlea",
+        "description": "Adding a new product"
+      },
+      "photographerCount": {
+        "title": "Photographer",
+        "description": "Taking photos for a product"
+      }
+    }
+  },
+  "flagged_images": {
+    "title": "Images flagged by users",
+    "loading": "Loading"
+  },
+  "questions": {
+    "category": "kategoria",
+    "categories": "Kategoriak",
+    "label": "etiketa",
+    "labels": "Etiketak",
+    "brand": "marka",
+    "brands": "Markak",
+    "quantity": "Kopurua",
+    "insightTypeLabel": "Only shows",
+    "ingredients": "Osagaiak",
+    "product_weight": "product weight",
+    "popularity_sort": "Sort by popularity",
+    "see_examples": "See examples of this ",
+    "no": "Ez",
+    "skip": "Saltatu",
+    "yes": "Bai",
+    "no_questions_remaining": "No questions remaining",
+    "countries": "Countries",
+    "view": "View",
+    "edit": "Editatu",
+    "hide_images": "Hide images (faster loading)",
+    "display_images": "Display images",
+    "annotations": "Annotations",
+    "last_annotations": "Last annotations",
+    "remaining_annotations": "Remaining questions",
+    "annotated_annotations": "Annotated",
+    "filters": {
+      "active_filter_number": "+{{count}} filters",
+      "active_filter_number_one": "+{{count}} filter",
+      "active_filter_number_zero": "no filter",
+      "short_label": {
+        "value": "balioa",
+        "country": "herrialdea",
+        "brand": "marka",
+        "popularity": "popularity",
+        "campaign": "camp"
+      },
+      "long_label": {
+        "type": "Question Type",
+        "value": "Proposed Value",
+        "country": "Product Country",
+        "brand": "Product Brand",
+        "popularity": "Sort by popularity",
+        "edit": "",
+        "campaign": "Campaign"
+      },
+      "placeholders": {
+        "value": "Value (fanta, en:organic,...)",
+        "brand": "auchan, danone, herta, ...",
+        "campaign": "Annotation campaigns"
+      },
+      "actions": {
+        "edit": "Edit Filters",
+        "cancel": "Ezeztatu",
+        "apply": "Ezarri"
+      }
+    },
+    "other_questions": "Other questions",
+    "send": "Send",
+    "flag": "Something wrong? Report/flag the image!",
+    "unflag": "Unflag the image",
+    "reset_filters": "Reset filters",
+    "log_in": "Erabiltzaile-izena",
+    "sign_up": "Eman izena",
+    "login_title": "Make your annotation count",
+    "login_description": "Une honetan Open Food Facts-en saioa hasi gabe duzu. Emaitzak zuzenean produktuetan agertzeko eta zure kontuarekin erlazionatzeko, Open Food Facts-en saioa hasi edo kontu bat sortu",
+    "please_wait_while_we_fetch_the_question": "Mesedez, itxaron galdera jasotzen dugun bitartean!"
+  },
+  "menu": {
+    "title": "Hunger Games",
+    "games": "Games",
+    "questions": "Questions",
+    "logos": "Logoak",
+    "logos-annotation": "Logos annotation",
+    "logos-search": "Logos search",
+    "logos-product-search": "Annotation per products",
+    "logos-deep-search": "Ohar mugagabea",
+    "manage": "Manage",
+    "insights": "Insights",
+    "nutritions": "Nutrition facts",
+    "settings": "Ezarpenak",
+    "eco-score": "Eco-score",
+    "dashboard": "Logos dashboard",
+    "tour": "Ikustaldia",
+    "logged_in_user": "{{userName}} gisa erregistratua",
+    "log_in": "Sakatu saioa hasteko"
+  },
+  "insights": {
+    "insights": "Insights",
+    "barcode": "Barra-kodea",
+    "barcode_placeholder": "barcode",
+    "value_tag": "Value tag",
+    "value_placeholder": "ex: en:mueslis, bjorg,...",
+    "type": "Type",
+    "annotated": "Annotated",
+    "annotation": "Annotation",
+    "not_annotated": "Not annotated",
+    "all": "All",
+    "label": "Etiketa",
+    "product_weight": "Product weight",
+    "category": "Kategoria",
+    "expiration_date": "Expiration date",
+    "packager_code": "Paketatzailearen kodea",
+    "skipped": "Skipped (-1)",
+    "rejected": "Rejected (0)",
+    "accepted": "Accepted (1)",
+    "search": "Bilatu",
+    "count": "Count",
+    "id": "Id",
+    "value": "Balioa",
+    "created_at": "Created at",
+    "completed_at": "Completed at",
+    "automatic": "Automatic",
+    "human_required": "Human required",
+    "edit_product": "Open product edit",
+    "view_product": "Open product page"
+  },
+  "logos": {
+    "annotation": "Annotation: ",
+    "annotations": "Logo annotations",
+    "task_description": "Select all logos that are exactly the same, and give them a name like \"en:EU Organic\" and a type like \"label\".",
+    "select_all": "Select all",
+    "unselect_all": "Unselect all",
+    "distance": "Distance:",
+    "value": "Balioa",
+    "submit": "Submit",
+    "type": "Type",
+    "label": "Etiketa",
+    "brand": "Marka",
+    "packager_code": "Paketatzailearen kodea",
+    "packaging": "Ontziratzea",
+    "qr_code": "QR code",
+    "category": "Kategoria",
+    "nutrition_label": "Nutrition label",
+    "no_logo": "Not a logo",
+    "store": "Denda",
+    "detail": "Logo detail",
+    "id": "Logo ID:",
+    "barcode": "Barcode:",
+    "full_image": "Full image",
+    "update": "Update",
+    "no_found": "No logo found",
+    "search": "Bilatu",
+    "number_of_results": "Number of results:",
+    "loading": "Kargatzen…",
+    "refresh": "Freskatu",
+    "search_specific": "Search specific logo",
+    "load_more": "Load more",
+    "no_results": "No logo found",
+    "result_count": "Shows {{showing}} on {{available}} available",
+    "flag": "Something wrong? Report/flag the image!",
+    "unflag": "Unflag the image",
+    "crop_image_title": "crop of the logo",
+    "no_more_questions": "Ez dago galdera gehiago logotipo honi buruz. Logotipo gehiago aurkitzen saiatu zaitezke hurrengo jokoarekin.",
+    "loading_messages": {
+      "pending_reference_logos": "Logotipoen adibide batzuk kargatzen ari gara bilaketa hasieratzeko",
+      "failed_reference_logos": "Ez dugu aurkitu idatzitakoarekin bat egiten duen logorik. Ideiak lortu itzazu hurrengo jokoa erabiltzen."
+    }
+  },
+  "settings": {
+    "settings": "Ezarpenak",
+    "language": "Hizkuntzak",
+    "save": "Gorde",
+    "reportIssue": "Akatsen bat aurkitu duzu? Mesedez, jakinarazi iezaguzu.",
+    "dev_mode_title": "To get more options, activate the dev mode",
+    "dev_mode_label": "Dev Mode",
+    "dev_page_toggle": "Show {{name}} page",
+    "join_community": "Batu komunitatera",
+    "text1": "Open Food Facts milaka bolondres eta irabazi asmorik gabeko 8 lankideko erakunde batek eginiko proiektu kolaboratiboa da. Zure doaintzak behar ditugu Open Food Facts 2023ko aurrekontuarentzako dirua bildu ahal izateko, eta horrela, proiektua garatzen jarraitzeko.",
+    "thank_you": "Eskerrik asko",
+    "donate": "Dohaintza",
+    "join_the_community": {
+      "discover_our": "Ezagutu gure ",
+      "code_of_conduct": "Jokabide-kodea ",
+      "join_us_on": "Gurera bildu zaitez ",
+      "forum": "Foroa",
+      "subscribe_to_our": "Harpidetu gure ",
+      "newsletter": "buletina"
+    },
+    "discover_the_project": "Discover the project",
+    "Who_we_are": "Nortzuk gara",
+    "Vision_Mission_Values_and_Programs": "Vision, Mission, Values and Programs",
+    "FAQS": "Maiz egindako galderak",
+    "open_Food_Facts_blog": "Open Food Facts bloga",
+    "Press": "Prentsa",
+    "Open_Food_Facts_wiki": "Open Food Facts wikia (en)",
+    "Translators": "Translators",
+    "Partners": "Partners",
+    "Open_Beauty_Facts": "Open Beauty Facts - Cosmetics",
+    "text2": "Mundu osoko elikagaiei buruzko datu-base kolaboratzailea, libre eta irekia."
+  },
+  "helper": {
+    "welcome": {
+      "page1": {
+        "title": "Welcome to Hunger Games",
+        "text1": "Hunger Games is a collection of mini-games that help contribute to Open Food Facts in many ways. You can play are really exciting games from anywhere. Here is a guided tour of the entire website which will get you started.",
+        "text2": "Make sure to login to the Open Food Facts website to get credit for your contributions. If you make a mistake, please take the time to correct it by heading to the website.",
+        "text3": "In case of any doubt about the games, click on the question mark icon at the top right of the page, and you can reach us on slack at the #hunger-games channel"
+      },
+      "page2": {
+        "title": "Questions Game",
+        "text1": "Does the food product belong to this brand?",
+        "text2": "Erantzun ezazu <strong>Bai/Ez</strong>batekin! Ez baduzu erantzuna ezagutzen lasai, urrengora joan.",
+        "text3": "Teklatuko lasterbideak ere erabil ditzakezu: y,n eta k.",
+        "text4": "Produktuak <strong>iragazi</strong> ditzakezu, markaren, arrakastaren eta askoz gehiagoren arabera!",
+        "text5": "Ez baduzu aldi bakoitzean egin nahi, <strong>iragazkiak gorde ditzakezu</strong> izarraren gainean klik eginez. Itzuliko zaren hurrengoan, gordetako iragazkiak hasierako orrian bertan aurkituko dituzu"
+      },
+      "page3": {
+        "title": "Logos Game",
+        "text1": "Another popular game is the logos game where you have to <strong>select all the logos</strong> you feel are the same.",
+        "text2": "As shown in the example, once you select all the similar logos, just type their value and select where it is a brand, a label or something else. It's that simple!"
+      },
+      "page4": {
+        "title": "Eco-Score Questions Game",
+        "text1": "Help us finish the remaining questions in the most high priority labels!",
+        "text2": "These cards are linked to labels used in the computation of the Eco-Score.",
+        "text3": "<strong>What is Eco-Score?</strong>",
+        "text4": "Eco-Score captures the total environmental footprint, making it easier for consumers to compare products and decide which is better for the environment."
+      },
+      "page5": {
+        "title": "Ezarpenak",
+        "text1": "Set your preferred language, and report issues from our settings page.",
+        "text2": "If you're a developer, you can also explore our database content using our dev mode."
+      },
+      "page6": {
+        "title": "Tour",
+        "text1": "Got stuck somewhere? Want to take the tour again?",
+        "text2": "Just click on the question mark and start the journey again!"
+      }
+    },
+    "logos": {
+      "page1": {
+        "title": "Hautapena",
+        "text1": "Select the crops of a same logo by clicking on them",
+        "text2": "Selected logos go to the top of the page, you can unselect them by clicking again on them"
+      },
+      "page2": {
+        "title": "Abisua",
+        "text1": "If the crop contains multiple logos, do not select it.",
+        "text2": "If the crop contains only a partial part of a logo, you can select it."
+      },
+      "page3": {
+        "title": "Validate",
+        "text1": "Indicate the type of logo (label, brand, QRcode, ...)",
+        "text2": "If it is a label or a brand logo, indicate which one it is",
+        "text3": "Now you can submit your selection",
+        "text4": "Thank you :)"
+      }
+    },
+    "previous": "Prev",
+    "next": "Hurrengoa",
+    "close": "Itxi"
+  },
+  "nutrition": {
+    "instructions": {
+      "cropTheTable": "Crop the image to simplify your annotation",
+      "verifyNutrimentDetected": "Indicate if the nutriment detected is correct",
+      "selectMissingNutriments": "Add missing nutriments (you can click even if the word has no box)",
+      "selectValue": "Select the nutritional value of: "
+    },
+    "steps": {
+      "1": "Moztu",
+      "2": "Balio bereziak",
+      "3": "Nutriments Selection",
+      "4": "Values Selection"
+    },
+    "loading": "Loading...",
+    "unknown_brand": "Marka ezezaguna",
+    "value_missing": "You forgot to input a value.",
+    "next": "Hurrengo urratsa",
+    "prev": "Aurreko urratsa",
+    "skip": "Skip this product",
+    "validate": "Validate Table",
+    "unselect_picture": "No nutrition info",
+    "basis": "honentzako datuak: ",
+    "servingSize": "anoaren tamaina",
+    "value": "Balioa",
+    "unit": "Unitatea",
+    "nutriments": {
+      "nutriment_energy-kj": "Energia (kJ)",
+      "nutriment_energy-kcal": "Energia (kcal)",
+      "nutriment_fat": "Gantza",
+      "nutriment_saturated-fat": "Gantz saturatua",
+      "nutriment_carbohydrates": "Karbohidratoak",
+      "nutriment_sugars": "Azukreak",
+      "nutriment_proteins": "Proteinak",
+      "nutriment_fiber": "Zuntza",
+      "nutriment_salt": "Gatza",
+      "nutriment_sodium": "Sodioa"
+    },
+    "history": {
+      "title": "Saioaren historia",
+      "status": "egoera",
+      "product name": "produktuaren izena",
+      "view": "ikusi orrialdea",
+      "edit": "edit page",
+      "SKIP": "ignored",
+      "VALIDATED": "edited",
+      "WRONG_IMAGE": "unselected picture",
+      "close": "close",
+      "open": "open history"
+    }
+  },
+  "notfound": {
+    "image_alt": "404 not found",
+    "nopage": "Whoops! The page you're looking for can't be found.",
+    "redirect1": "Want to play some games?",
+    "redirect2": "Click here"
+  },
+  "nutriscore": {
+    "image_alt": "cropped image",
+    "label": "Annotate Nutri-Score logo detection by batch.",
+    "description": "To do so, select all the images showing the correct/wrong Nutri-Score value ({{label}}), and click on the bottom buttons to say if you selected a set correct or wrong ones.",
+    "images_remaining": "Still {{remaining}} to annotate",
+    "image_sizes": "Image sizes",
+    "zoom_on_logo": "Zoom on logo",
+    "select_all": "Select all",
+    "deselect_all": "Unselect all",
+    "incorrect": "Wrong",
+    "correct": "Correct ({{label}})"
+  },
+  "eco-score": {
+    "description": "Here is a summary of questions that could improve Eco-Score computation",
+    "countryLabel": "Country"
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "home": {
+    "game_selector": {
+      "title": "Mitä peliä haluaisit pelata?",
+      "cards": {
+        "questions": {
+          "title": "Kysymykset",
+          "description": "Kerro, vastaako annettu kuva kysymyksiin"
+        },
+        "logos": {
+          "title": "Logos",
+          "description": "Etsi kaikki logot, jotka vastaavat annettua logoa"
+        },
+        "eco_score": {
+          "title": "Ekopisteet",
+          "description": "Annotate the questions with the highest value"
+        }
+      }
+    },
+    "account_band": {
+      "title": "Haluatko tukea meitä? Luo tili tai kirjaudu Open Food Factsiin!",
+      "log_in": "Käyttäjätunnus",
+      "sign_up": "Rekisteröidy",
+      "contribution_details": "Opi miksi panoksellasi on merkitystä"
+    },
+    "saved_filters": "Tallennetut suodattimet",
+    "contribution_modal": {
+      "title": "Tukesi vaikuttaa",
+      "information": "Hunger Games is an effort to leverage the results of our OCR and artificial intelligence. When you use Hunger Games by Open Food Facts, you improve our entire database which helps the community make better food choices. We gather your annotations and use them to make Open Food Facts more accurate and effecient.",
+      "thank_you": "Thank you for helping us improve Open Food Facts so that more people can use it easily."
+    },
+    "statistics": {
+      "title": "{{userName}} tilastot:",
+      "editorCount": {
+        "title": "Toimittaja",
+        "description": "Number of editions done"
+      },
+      "contributorCount": {
+        "title": "Osallistuja",
+        "description": "Uuden tuotteen lisääminen"
+      },
+      "photographerCount": {
+        "title": "Valokuvaaja",
+        "description": "Kuvien ottaminen tuotteelle"
+      }
+    }
+  },
+  "flagged_images": {
+    "title": "Käyttäjien ilmoittamat kuvat",
+    "loading": "Ladataan…"
+  },
+  "questions": {
+    "category": "tuoteluokka",
+    "categories": "Tuoteluokat",
+    "label": "merkki",
+    "labels": "Merkit",
+    "brand": "tuotemerkki",
+    "brands": "Tuotemerkit",
+    "quantity": "Määrä",
+    "insightTypeLabel": "Näytä vain",
+    "ingredients": "Ainesosat",
+    "product_weight": "tuotteen paino",
+    "popularity_sort": "Lajittele suosion mukaan",
+    "see_examples": "Katso esimerkkejä tästä ",
+    "no": "Ei",
+    "skip": "Ohita",
+    "yes": "Kyllä",
+    "no_questions_remaining": "Ei kysymyksiä jäljellä",
+    "countries": "Maat",
+    "view": "Näytä",
+    "edit": "Muokkaa",
+    "hide_images": "Piilota kuvat (nopeampi lataus)",
+    "display_images": "Näytä kuvat",
+    "annotations": "Merkinnät",
+    "last_annotations": "Viimeisimmät merkinnät",
+    "remaining_annotations": "Jäljellä olevat kysymykset",
+    "annotated_annotations": "Merkitty",
+    "filters": {
+      "active_filter_number": "+{{count}} suodatinta",
+      "active_filter_number_one": "+{{count}} filter",
+      "active_filter_number_zero": "Ei suodattimia",
+      "short_label": {
+        "value": "arvo",
+        "country": "maa",
+        "brand": "tuotemerkki",
+        "popularity": "suosio",
+        "campaign": "camp"
+      },
+      "long_label": {
+        "type": "Kysymystyyppi",
+        "value": "Ehdotettu arvo",
+        "country": "Product Country",
+        "brand": "Tuotemerkki",
+        "popularity": "Lajittele suosion mukaan",
+        "edit": "",
+        "campaign": "Kampanja"
+      },
+      "placeholders": {
+        "value": "Value (fanta, en:organic,...)",
+        "brand": "auchan, danone, herta, ...",
+        "campaign": "Annotation campaigns"
+      },
+      "actions": {
+        "edit": "Muokkaa suodattimia",
+        "cancel": "Peruuta",
+        "apply": "Hyväksy"
+      }
+    },
+    "other_questions": "Other questions",
+    "send": "Lähetä",
+    "flag": "Onko jokin vialla? Ilmoita kuvasta!",
+    "unflag": "Unflag the image",
+    "reset_filters": "Tyhjennä suodattimet",
+    "log_in": "Käyttäjätunnus",
+    "sign_up": "Rekisteröidy",
+    "login_title": "Make your annotation count",
+    "login_description": "You are not currently logged into Open Food Facts. To get your answers directly applied to products, and associated to your account, consider logging in to your Open Food Facts account, or creating one",
+    "please_wait_while_we_fetch_the_question": "Please wait while we fetch the question!"
+  },
+  "menu": {
+    "title": "Hunger Games",
+    "games": "Pelit",
+    "questions": "Kysymykset",
+    "logos": "Logos",
+    "logos-annotation": "Logos annotation",
+    "logos-search": "Logos search",
+    "logos-product-search": "Annotation per products",
+    "logos-deep-search": "Infinite annotation",
+    "manage": "Hallitse",
+    "insights": "Oivallukset",
+    "nutritions": "Ravintosisältö",
+    "settings": "Asetukset",
+    "eco-score": "Ekopisteet",
+    "dashboard": "Logos dashboard",
+    "tour": "Show tour",
+    "logged_in_user": "Logged as {{userName}}",
+    "log_in": "Click to login"
+  },
+  "insights": {
+    "insights": "Oivallukset",
+    "barcode": "Viivakoodi",
+    "barcode_placeholder": "viivakoodi",
+    "value_tag": "Arvotunniste",
+    "value_placeholder": "esim.: en:mueslis, bjorg,...",
+    "type": "Tyyppi",
+    "annotated": "Merkitty",
+    "annotation": "Merkintä",
+    "not_annotated": "Ei merkintöjä",
+    "all": "Kaikki",
+    "label": "Merkki",
+    "product_weight": "Tuotteen paino",
+    "category": "Tuoteluokka",
+    "expiration_date": "Viimeinen käyttöpäivä",
+    "packager_code": "Pakkaajan koodi",
+    "skipped": "Ohitettu (-1)",
+    "rejected": "Hylätty (0)",
+    "accepted": "Hyväksytty (1)",
+    "search": "Etsi",
+    "count": "Määrä",
+    "id": "Tunniste",
+    "value": "Arvo",
+    "created_at": "Luontiaika",
+    "completed_at": "Valmistumisaika",
+    "automatic": "Automaattinen",
+    "human_required": "Ihmistä vaaditaan",
+    "edit_product": "Open product edit",
+    "view_product": "Open product page"
+  },
+  "logos": {
+    "annotation": "Merkintä: ",
+    "annotations": "Logomerkinnät",
+    "task_description": "Select all logos that are exactly the same, and give them a name like \"en:EU Organic\" and a type like \"label\".",
+    "select_all": "Valitse kaikki",
+    "unselect_all": "Tyhjennä valinta",
+    "distance": "Etäisyys:",
+    "value": "Arvo",
+    "submit": "Lähetä",
+    "type": "Tyyppi",
+    "label": "Merkki",
+    "brand": "Tuotemerkki",
+    "packager_code": "Pakkaajan koodi",
+    "packaging": "Pakkaus",
+    "qr_code": "QR-koodi",
+    "category": "Tuoteluokka",
+    "nutrition_label": "Ravintomerkki",
+    "no_logo": "Not a logo",
+    "store": "Myymälä",
+    "detail": "Logon yksityiskohdat",
+    "id": "Logon tunniste:",
+    "barcode": "Viivakoodi:",
+    "full_image": "Täysi kuva",
+    "update": "Päivitä",
+    "no_found": "Logoa ei löytynyt",
+    "search": "Etsi",
+    "number_of_results": "Tulosten lukumäärä:",
+    "loading": "Ladataan…",
+    "refresh": "Päivitä",
+    "search_specific": "Search specific logo",
+    "load_more": "Load more",
+    "no_results": "Logoa ei löytynyt",
+    "result_count": "Shows {{showing}} on {{available}} available",
+    "flag": "Onko jokin vialla? Ilmoita kuvasta!",
+    "unflag": "Unflag the image",
+    "crop_image_title": "crop of the logo",
+    "no_more_questions": "No more questions about this logo. You can try to find more logos with the following game.",
+    "loading_messages": {
+      "pending_reference_logos": "We are loading some logos examples to initialise the serach",
+      "failed_reference_logos": "We did not find any logos with this annotation. Try to use the following game to annotate some of them."
+    }
+  },
+  "settings": {
+    "settings": "Asetukset",
+    "language": "Kielet",
+    "save": "Tallenna",
+    "reportIssue": "Found a bug? Please let us know.",
+    "dev_mode_title": "To get more options, activate the dev mode",
+    "dev_mode_label": "Dev Mode",
+    "dev_page_toggle": "Show {{name}} page",
+    "join_community": "Liity yhteisöön",
+    "text1": "Open Food Facts is a collaborative project built by tens of thousands of volunteers and managed by a non-profit organization with 8 employees. We need your donations to fund the Open Food Facts 2023 budget and to continue to develop the project.",
+    "thank_you": "Thank you",
+    "donate": "Lahjoita",
+    "join_the_community": {
+      "discover_our": "Discover our ",
+      "code_of_conduct": "Code of conduct ",
+      "join_us_on": "Join us on ",
+      "forum": "Forum",
+      "subscribe_to_our": "Subscribe to our ",
+      "newsletter": "newsletter"
+    },
+    "discover_the_project": "Tutustu hankkeeseen",
+    "Who_we_are": "Keitä olemme",
+    "Vision_Mission_Values_and_Programs": "Visio, missio, arvot ja ohjelmat",
+    "FAQS": "FAQS",
+    "open_Food_Facts_blog": "Open Food Facts blog",
+    "Press": "Lehdistö",
+    "Open_Food_Facts_wiki": "Open Food Facts wiki (en)",
+    "Translators": "Kääntäjät",
+    "Partners": "Kumppanit",
+    "Open_Beauty_Facts": "Open Beauty Facts - Kosmetiikka",
+    "text2": "Yhteistyöhön perustuva, vapaa ja avoin tietokanta elintarvikkeista ympäri maailmaa."
+  },
+  "helper": {
+    "welcome": {
+      "page1": {
+        "title": "Welcome to Hunger Games",
+        "text1": "Hunger Games is a collection of mini-games that help contribute to Open Food Facts in many ways. You can play are really exciting games from anywhere. Here is a guided tour of the entire website which will get you started.",
+        "text2": "Make sure to login to the Open Food Facts website to get credit for your contributions. If you make a mistake, please take the time to correct it by heading to the website.",
+        "text3": "In case of any doubt about the games, click on the question mark icon at the top right of the page, and you can reach us on slack at the #hunger-games channel"
+      },
+      "page2": {
+        "title": "Questions Game",
+        "text1": "Does the food product belong to this brand?",
+        "text2": "Simply answer with a <strong>Yes/No</strong>! Don't know the answer? That's alright, just skip it.",
+        "text3": "You can also use your keyboard shortcuts: y,n and k.",
+        "text4": "You can <strong>filter</strong> the products based on country, brands, popularity and much more!",
+        "text5": "If you don't want to do this every single time, you can also <strong>save the filters</strong> by clicking on the star. Next time you come back, find the saved filters on the home page itself"
+      },
+      "page3": {
+        "title": "Logos Game",
+        "text1": "Another popular game is the logos game where you have to <strong>select all the logos</strong> you feel are the same.",
+        "text2": "As shown in the example, once you select all the similar logos, just type their value and select where it is a brand, a label or something else. It's that simple!"
+      },
+      "page4": {
+        "title": "Eco-Score Questions Game",
+        "text1": "Help us finish the remaining questions in the most high priority labels!",
+        "text2": "These cards are linked to labels used in the computation of the Eco-Score.",
+        "text3": "<strong>Mitä ekopisteet ovat?</strong>",
+        "text4": "Ekopisteet ottavat huomioon ympäristöjalanjäljen kokonaisuudessaan, jolloin kuluttajien on helpompi vertailla tuotteita ja päättää, mikä on ympäristön kannalta parempaa."
+      },
+      "page5": {
+        "title": "Asetukset",
+        "text1": "Määritä haluamasi kieli ja raportoi ongelmista asetussivullamme.",
+        "text2": "Jos olet kehittäjä, voit myös tutustua tietokantasisältöömme kehittäjätilassamme."
+      },
+      "page6": {
+        "title": "Kierros",
+        "text1": "Oletko juuttunut johonkin? Haluatko ottaa kierroksen uudelleen?",
+        "text2": "Napsauta kysymysmerkkiä ja aloita matka uudelleen!"
+      }
+    },
+    "logos": {
+      "page1": {
+        "title": "Valinta",
+        "text1": "Select the crops of a same logo by clicking on them",
+        "text2": "Selected logos go to the top of the page, you can unselect them by clicking again on them"
+      },
+      "page2": {
+        "title": "Varoitus",
+        "text1": "If the crop contains multiple logos, do not select it.",
+        "text2": "If the crop contains only a partial part of a logo, you can select it."
+      },
+      "page3": {
+        "title": "Validate",
+        "text1": "Indicate the type of logo (label, brand, QRcode, ...)",
+        "text2": "If it is a label or a brand logo, indicate which one it is",
+        "text3": "Now you can submit your selection",
+        "text4": "Kiitos!"
+      }
+    },
+    "previous": "Edell.",
+    "next": "Seuraava",
+    "close": "Sulje"
+  },
+  "nutrition": {
+    "instructions": {
+      "cropTheTable": "Crop the image to simplify your annotation",
+      "verifyNutrimentDetected": "Indicate if the nutriment detected is correct",
+      "selectMissingNutriments": "Add missing nutriments (you can click even if the word has no box)",
+      "selectValue": "Select the nutritional value of: "
+    },
+    "steps": {
+      "1": "Rajaa",
+      "2": "Erikoisarvot",
+      "3": "Ravintoaineiden valinta",
+      "4": "Arvojen valinta"
+    },
+    "loading": "Loading...",
+    "unknown_brand": "Tuntematon tuotemerkki",
+    "value_missing": "You forgot to input a value.",
+    "next": "Next step",
+    "prev": "Prev step",
+    "skip": "Ohita tämä tuote",
+    "validate": "Vahvista taulukko",
+    "unselect_picture": "Ei ravitsemustietoja",
+    "basis": "data for: ",
+    "servingSize": "Annoskoko",
+    "value": "Arvo",
+    "unit": "Yksikkö",
+    "nutriments": {
+      "nutriment_energy-kj": "Energia (kJ)",
+      "nutriment_energy-kcal": "Kalorit (kCal)",
+      "nutriment_fat": "Rasva",
+      "nutriment_saturated-fat": "Tyydyttynyt rasva",
+      "nutriment_carbohydrates": "Hiilihydraatit",
+      "nutriment_sugars": "Sokerit",
+      "nutriment_proteins": "Proteiinit",
+      "nutriment_fiber": "Kuitu",
+      "nutriment_salt": "Suola",
+      "nutriment_sodium": "Natrium"
+    },
+    "history": {
+      "title": "Session History",
+      "status": "status",
+      "product name": "product name",
+      "view": "Näytä sivu",
+      "edit": "Muokkaa sivua",
+      "SKIP": "ignored",
+      "VALIDATED": "muokattu",
+      "WRONG_IMAGE": "valitsematon kuva",
+      "close": "Sulje",
+      "open": "avaa historia"
+    }
+  },
+  "notfound": {
+    "image_alt": "404. Kuvaa ei löydy.",
+    "nopage": "Hupsista! Etsimääsi sivua ei löytynyt.",
+    "redirect1": "Haluatko pelata joitain pelejä?",
+    "redirect2": "Click here"
+  },
+  "nutriscore": {
+    "image_alt": "cropped image",
+    "label": "Annotate Nutri-Score logo detection by batch.",
+    "description": "To do so, select all the images showing the correct/wrong Nutri-Score value ({{label}}), and click on the bottom buttons to say if you selected a set correct or wrong ones.",
+    "images_remaining": "Still {{remaining}} to annotate",
+    "image_sizes": "Image sizes",
+    "zoom_on_logo": "Zoom on logo",
+    "select_all": "Valitse kaikki",
+    "deselect_all": "Tyhjennä valinta",
+    "incorrect": "Wrong",
+    "correct": "Correct ({{label}})"
+  },
+  "eco-score": {
+    "description": "Here is a summary of questions that could improve Eco-Score computation",
+    "countryLabel": "Country"
+  }
+}

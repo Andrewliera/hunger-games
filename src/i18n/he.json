@@ -1,0 +1,377 @@
+{
+  "home": {
+    "game_selector": {
+      "title": "איזה משחק בא לך לשחק?",
+      "cards": {
+        "questions": {
+          "title": "שאלות",
+          "description": "לספר לנו האם התמונה שמוצגת עונה על השאלות"
+        },
+        "logos": {
+          "title": "לוגואים",
+          "description": "איתור כל הלוגואים שתואמים ללוגו המוצג"
+        },
+        "eco_score": {
+          "title": "Eco-Score",
+          "description": "תיוג השאלות עם הערך הגבוה ביותר"
+        }
+      }
+    },
+    "account_band": {
+      "title": "רוצה שהתרומות שלך ייזקפו לזכותך? אפשר ליצור חשבון או להיכנס ל־Open Food Facts!",
+      "log_in": "שם משתמש",
+      "sign_up": "הרשמה",
+      "contribution_details": "הסבר על חשיבות התרומה שלך"
+    },
+    "saved_filters": "מסננים שמורים",
+    "contribution_modal": {
+      "title": "התרומות שלך מביאות לשינוי",
+      "information": "משחקי הרעב הם מאמץ למנף את תוצאות הסריקה האופטית והבינה המלאכותית שלנו. שימוש במשחקי הרעב של Open Food Facts, תורמים בשיפור מסד הנתונים שלנו, מה שעוזר לקהילה לבחור טוב יותר באוכל. אנו אוספים את התיוגים שלך ומשתמשים בהם כדי להפוך את Open Food Facts למדויק ויעיל יותר.",
+      "thank_you": "תודה לך על הסיוע בשיפור Open Food Facts כדי שיותר אנשים יוכלו להשתמש בשירות בקלות."
+    },
+    "statistics": {
+      "title": "סטטיסטיקה על {{userName}}:",
+      "editorCount": {
+        "title": "עורך",
+        "description": "מספר העריכות שבוצעו"
+      },
+      "contributorCount": {
+        "title": "תרומה",
+        "description": "הוספת מוצר חדש"
+      },
+      "photographerCount": {
+        "title": "צילום",
+        "description": "צילום תמונות של מוצר"
+      }
+    }
+  },
+  "flagged_images": {
+    "title": "תמונות שסומנו על ידי משתמשים",
+    "loading": "בטעינה"
+  },
+  "questions": {
+    "category": "קטגוריה",
+    "categories": "קטגוריות",
+    "label": "תווית",
+    "labels": "תוויות",
+    "brand": "מותג",
+    "brands": "מותגים",
+    "quantity": "כמות",
+    "insightTypeLabel": "מופיע רק",
+    "ingredients": "רכיבים",
+    "product_weight": "משקל המוצר",
+    "popularity_sort": "מיון לפי פופולריות",
+    "see_examples": "הצגת דוגמאות של זה ",
+    "no": "לא",
+    "skip": "דילוג",
+    "yes": "כן",
+    "no_questions_remaining": "אין עוד שאלות",
+    "countries": "מדינות",
+    "view": "הצגה",
+    "edit": "עריכה",
+    "hide_images": "הסתרת תמונות (טעינה מואצת)",
+    "display_images": "הצגת תמונות",
+    "annotations": "הסברים",
+    "last_annotations": "הערות אחרונות",
+    "remaining_annotations": "שאלות שנותרו",
+    "annotated_annotations": "נכתבו הערות",
+    "filters": {
+      "active_filter_number": "+{{count}} מסננים",
+      "active_filter_number_one": "+ מסנן",
+      "active_filter_number_zero": "ללא סינון",
+      "short_label": {
+        "value": "ערך",
+        "country": "מדינה",
+        "brand": "מותג",
+        "popularity": "פופולריות",
+        "campaign": "פרסום"
+      },
+      "long_label": {
+        "type": "סוג שאלה",
+        "value": "ערך מוצע",
+        "country": "ארץ המוצר",
+        "brand": "מותג המוצר",
+        "popularity": "מיון לפי פופולריות",
+        "edit": "",
+        "campaign": "מסע פרסום"
+      },
+      "placeholders": {
+        "value": "ערך (פאנטה, en:organic,…)",
+        "brand": "טרה, אסם, צבר, …",
+        "campaign": "מסעות פרסום לתיוג"
+      },
+      "actions": {
+        "edit": "עריכת מסננים",
+        "cancel": "ביטול",
+        "apply": "החלה"
+      }
+    },
+    "other_questions": "שאלות אחרות",
+    "send": "שליחה",
+    "flag": "משהו לא תקין? אפשר לדווח/לסמן את התמונה!",
+    "unflag": "ביטול סימון התמונה",
+    "reset_filters": "איפוס מסננים",
+    "log_in": "שם משתמש",
+    "sign_up": "הרשמה",
+    "login_title": "להעניק ערך להערות שלך",
+    "login_description": "לא נכנסת ל־Open Food Facts. כדי שהשאלות יחולו ישירות על מוצרים וישויכו לחשבון שלך, כדאי להיכנס לחשבון שלך ב־Open Food Facts או ליצור אחד",
+    "please_wait_while_we_fetch_the_question": "נא להמתין בזמן משיכת השאלה!"
+  },
+  "menu": {
+    "title": "משחקי הרעב",
+    "games": "משחקים",
+    "questions": "שאלות",
+    "logos": "לוגואים",
+    "logos-annotation": "תיוג לוגואים",
+    "logos-search": "חיפוש לוגואים",
+    "logos-product-search": "תיוגים למוצר",
+    "logos-deep-search": "תיוג אינסופי",
+    "manage": "ניהול",
+    "insights": "תובנות",
+    "nutritions": "מפרט תזונתי",
+    "settings": "הגדרות",
+    "eco-score": "Eco-Score",
+    "dashboard": "לוח בקרה ללוגואים",
+    "tour": "הצגת סיור",
+    "logged_in_user": "נכנסת בשם {{userName}}",
+    "log_in": "לחיצה תכניס אותך למערכת"
+  },
+  "insights": {
+    "insights": "תובנות",
+    "barcode": "ברקוד",
+    "barcode_placeholder": "ברקוד",
+    "value_tag": "תגית ערך",
+    "value_placeholder": "למשל: en:mueslis, שקדיה, …",
+    "type": "סוג",
+    "annotated": "נכתבו הערות",
+    "annotation": "הערה",
+    "not_annotated": "ללא הערה",
+    "all": "הכול",
+    "label": "תווית",
+    "product_weight": "משקל המוצר",
+    "category": "קטגוריה",
+    "expiration_date": "תאריך תפוגה",
+    "packager_code": "קוד מפעל אריזה",
+    "skipped": "דולג (‎-1)",
+    "rejected": "נדחה (0)",
+    "accepted": "התקבל (1)",
+    "search": "חיפוש",
+    "count": "ספירה",
+    "id": "מזהה",
+    "value": "ערך",
+    "created_at": "נוצר ב־",
+    "completed_at": "הושלם ב־",
+    "automatic": "אוטומטית",
+    "human_required": "נדרש בן אדם",
+    "edit_product": "פתיחת עריכת מוצר",
+    "view_product": "פתיחת עמוד מוצר"
+  },
+  "logos": {
+    "annotation": "הערה: ",
+    "annotations": "הערות על הלוגו",
+    "task_description": "יש לבחור את כל הלוגואים הזהים לחלוטין ולתת להם שם כמו „en:EU Organic” וסוג כמו „label” (תווית).",
+    "select_all": "לבחור הכול",
+    "unselect_all": "ביטול בחירה",
+    "distance": "מרחק:",
+    "value": "ערך",
+    "submit": "הגשה",
+    "type": "סוג",
+    "label": "תווית",
+    "brand": "מותג",
+    "packager_code": "קוד מפעל אריזה",
+    "packaging": "אריזה",
+    "qr_code": "קוד QR",
+    "category": "קטגוריה",
+    "nutrition_label": "תווית תזונתית",
+    "no_logo": "לא לוגו",
+    "store": "חנות",
+    "detail": "פרטים על הלוגו",
+    "id": "מזהה לוגו:",
+    "barcode": "ברקוד:",
+    "full_image": "תמונה מלאה",
+    "update": "עדכון",
+    "no_found": "לא נמצא לוגו",
+    "search": "חיפוש",
+    "number_of_results": "מספר התוצאות:",
+    "loading": "בטעינה…",
+    "refresh": "רענון",
+    "search_specific": "חיפוש לוגו מסוים",
+    "load_more": "לטעון עוד",
+    "no_results": "לא נמצא לוגו",
+    "result_count": "מוצגים {{showing}} מתוך {{available}} הזמינים",
+    "flag": "משהו לא תקין? אפשר לדווח/לסמן את התמונה!",
+    "unflag": "ביטול סימון התמונה",
+    "crop_image_title": "חיתוך של הלוגו",
+    "no_more_questions": "אין עוד שאלות על הלוגו הזה. אפשר לנסות למצוא לוגואים נוספים עם המשחק הבא.",
+    "loading_messages": {
+      "pending_reference_logos": "אנו טוענים כמה דוגמאות לוגואים כדי להתחיל את החיפוש",
+      "failed_reference_logos": "לא הצלחנו למצוא לוגואים עם הסבר כזה. כדאי לנסות להשתמש במשחק הבא כדי להוסיף הסבר לכמה מהם."
+    }
+  },
+  "settings": {
+    "settings": "הגדרות",
+    "language": "שפות",
+    "save": "שמירה",
+    "reportIssue": "מצאת תקלה? נא ליידע אותנו.",
+    "dev_mode_title": "כדי לקבל אפשרויות נוספות, יש להפעיל את מצב הפיתוח",
+    "dev_mode_label": "מצב פיתוח",
+    "dev_page_toggle": "הצגת העמוד {{name}}",
+    "join_community": "הצטרפות לקהילה",
+    "text1": "Open Food Facts הוא מיזם שיתופי שנבנה על ידי עשרות אלפי מתנדבים ומנוהל על ידי ארגון ללא מטרות רווח שמונה 8 עובדים. אנו זקוקים לתרומה שלך כדי לממן את התקציב לשנת 2023 ולהמשיך לפתח את המיזם.",
+    "thank_you": "תודה רבה",
+    "donate": "תרומה",
+    "join_the_community": {
+      "discover_our": "עיון ",
+      "code_of_conduct": "בקוד ההתנהגות שלנו ",
+      "join_us_on": "מזמינים אותך להצטרף אלינו ",
+      "forum": "בפורום",
+      "subscribe_to_our": "הרשמה למינוי ",
+      "newsletter": "בקבוצת הדיוור שלנו"
+    },
+    "discover_the_project": "לגלות עוד על המיזם",
+    "Who_we_are": "מי אנחנו",
+    "Vision_Mission_Values_and_Programs": "חזון, שליחות, ערכים ותכניות",
+    "FAQS": "שו״תים",
+    "open_Food_Facts_blog": "הבלוג של Open Food Facts",
+    "Press": "מידע לעתונאים",
+    "Open_Food_Facts_wiki": "הוויקי של Open Food Facts (אנגלית)",
+    "Translators": "מתרגמים",
+    "Partners": "שותפים",
+    "Open_Beauty_Facts": "Open Beauty Facts - טיפוח",
+    "text2": "מסד נתונים חופשי, פתוח ושיתופי של מוצרי מזון מכל רחבי העולם."
+  },
+  "helper": {
+    "welcome": {
+      "page1": {
+        "title": "ברוך בואך למשחקי הרעב",
+        "text1": "משחקי הרעב הם אוסף של משחקונים שעוזרים לתרום ל־Open Food Facts במגוון דרכים. ניתן לשחק במגוון משחקים מרתקים מכל מקום. להלן סיור מודרך באתר שיעזור לך להיכנס לעניינים.",
+        "text2": "נא לוודא שנכנסת לחשבון שלך באתר של Open Food Facts כדי לקבל קרדיט על התרומות שלך. אם שגית, נא להשקיע מזמנך לגשת לאתר ולתקן את הטעות.",
+        "text3": "במקרה של ספק כלשהו בנוגע למשחקים, אפשר ללחוץ על סמל סימן השאלה בפינה השמאלית העליונה של העמוד וניתן לפנות אלינו דרך Slack בערוץ ‎#hunger-games"
+      },
+      "page2": {
+        "title": "משחק שאלות",
+        "text1": "האם מוצר המזון שייך למותג הזה?",
+        "text2": "יש לענות בפשטות עם <strong>כן/לא</strong>! אין לך תשובה? זה בסדר, אפשר פשוט לדלג על זה.",
+        "text3": "אפשר גם להשתמש במקשי המקלדת y,‏ n ו־k.",
+        "text4": "אפשר <strong>לסנן</strong> את המוצרים לפי מדינה, מותגים, פופולריות ועוד!",
+        "text5": "כדי להימנע מחזרה על הפעולה הזאת כל פעם מחדש, אפשר <strong>לשמור את המסננים</strong> בלחיצה על הכוכב. עם שובך, ניתן למצוא את המסננים השמורים בעמוד הבית עצמו"
+      },
+      "page3": {
+        "title": "משחק לוגואים",
+        "text1": "עוד משחק נפוץ הוא משחק הלוגואים שבו צריך <strong>לבחור את כל הלוגואים</strong> שלדעתך הם זהים.",
+        "text2": "כפי שמופיע בתמונה, לאחר שבחרת את כל הלוגואים הדומים, עליך פשוט להקליד את הערך שלהם ולבחור האם זה מותג, תוויות או משהו אחר. זה עד כדי כך פשוט!"
+      },
+      "page4": {
+        "title": "משחק שאלות על Eco-Score",
+        "text1": "מזמינים אותך לסייע לנו לסיים את השאלות הנותרות בתוויות עם העדיפות הגבוהה ביותר!",
+        "text2": "הכרטיסים האלו מקושרים לתוויות שנעשה בהן שימוש בחישוב ה־Eco-Score.",
+        "text3": "<strong>מה זה Eco-Score?</strong>",
+        "text4": "Eco-Score מתחשב בטביעת הרגל הסביבתית הכוללת, מה שמקל על צרכנים להשוות בין מוצרים ולהחליט מה עדיף לאיכות הסביבה."
+      },
+      "page5": {
+        "title": "הגדרות",
+        "text1": "ניתן להגדיר את השפה המועדפת עליך ולדווח על תקלות דרך עמוד ההגדרות שלנו.",
+        "text2": "מפתחים יכולים גם לחקור את תוכן מסד הנתונים שלנו באמצעות המצב למפתחים."
+      },
+      "page6": {
+        "title": "סיור",
+        "text1": "נתקעת איפשהו? רוצה לחזור לסיור נוסף?",
+        "text2": "לחיצה על סימן השאלה תוביל אותך היישר לתחילת המסע מחדש!"
+      }
+    },
+    "logos": {
+      "page1": {
+        "title": "בחירה",
+        "text1": "יש לבחור את החיתוכים של לוגו זהה בלחיצה עליהם",
+        "text2": "הלוגואים הנבחרים עולים לראש העמוד, ניתן לבטל את הבחירה בהם על ידי לחיצה חוזרת עליהם"
+      },
+      "page2": {
+        "title": "אזהרה",
+        "text1": "אם החיתוך מכיל מספר לוגואים אין לבחור אותו.",
+        "text2": "אם החיתוך מכיל רק חלק מהלוגו, ניתן לבחור בו."
+      },
+      "page3": {
+        "title": "אימות",
+        "text1": "זיהוי סוג הלוגו (תווית, מותג, קוד QR, ...)",
+        "text2": "אם זו תווית או לוגו של מותג, נא לציין מה הוא המותק",
+        "text3": "כעת מותר לך להגיש את הבחירה שלך",
+        "text4": "תודה רבה :)"
+      }
+    },
+    "previous": "הקודם",
+    "next": "הבא",
+    "close": "סגירה"
+  },
+  "nutrition": {
+    "instructions": {
+      "cropTheTable": "ניתן לחתוך את התמונה כדי לפשט את התיאור שלך",
+      "verifyNutrimentDetected": "נא לציין אם חומרי ההזנה שזוהו נכונים",
+      "selectMissingNutriments": "הוספת חומרי הזנה חסרים (ניתן ללחוץ אפילו אם למילה אין תיבה מסביבה)",
+      "selectValue": "נא לבחור את הערך התזונתי של: "
+    },
+    "steps": {
+      "1": "חיתוך",
+      "2": "ערכים מיוחדים",
+      "3": "בחירת חומרי הזנה",
+      "4": "בחירת ערכים"
+    },
+    "loading": "בטעינה…",
+    "unknown_brand": "מותג לא ידוע",
+    "value_missing": "שכחת למלא ערך.",
+    "next": "השלב הבא",
+    "prev": "השלב הקודם",
+    "skip": "דילוג על מוצר זה",
+    "validate": "אימות טבלה",
+    "unselect_picture": "אין מפרט תזונתי",
+    "basis": "נתונים עבור: ",
+    "servingSize": "גודל הגשה",
+    "value": "ערך",
+    "unit": "יחידה",
+    "nutriments": {
+      "nutriment_energy-kj": "אנרגיה (kJ)",
+      "nutriment_energy-kcal": "אנרגיה (קק״ל)",
+      "nutriment_fat": "שומן",
+      "nutriment_saturated-fat": "שומן רווי",
+      "nutriment_carbohydrates": "פחמימות",
+      "nutriment_sugars": "סוכרים",
+      "nutriment_proteins": "חלבון",
+      "nutriment_fiber": "סיבים",
+      "nutriment_salt": "מלח",
+      "nutriment_sodium": "נתרן"
+    },
+    "history": {
+      "title": "היסטוריית ההפעלות",
+      "status": "מצב",
+      "product name": "שם המוצר",
+      "view": "הצגת עמוד",
+      "edit": "עריכת עמוד",
+      "SKIP": "התעלמת",
+      "VALIDATED": "נערך",
+      "WRONG_IMAGE": "תמונה שלא נבחרה",
+      "close": "סגירה",
+      "open": "פתיחת היסטוריה"
+    }
+  },
+  "notfound": {
+    "image_alt": "404 לא נמצא",
+    "nopage": "אוווופס! הדף המבוקש לא נמצא.",
+    "redirect1": "בא לך לשחק?",
+    "redirect2": "צריך ללחוץ כאן"
+  },
+  "nutriscore": {
+    "image_alt": "תמונה חתוכה",
+    "label": "תיוג מרוכז של הלוגו של Nutri-Score.",
+    "description": "כדי לעשות זאת, יש לבחור את כל התמונות המציגות את ערך ה־Nutri-Score הנכון/שגוי ({{label}}), וללחוץ על הכפתורים שלמטה כדי לומר אם בחרת קבוצה נכונה או שגויה.",
+    "images_remaining": "נותרו {{remaining}} לתיוג",
+    "image_sizes": "גדלי תמונות",
+    "zoom_on_logo": "התמקדות על לוגו",
+    "select_all": "לבחור הכול",
+    "deselect_all": "ביטול בחירה",
+    "incorrect": "שגוי",
+    "correct": "נכון ({{label}})"
+  },
+  "eco-score": {
+    "description": "הנה תקציר לשאלות שיכולות לשפר את החישוב של Eco-Score",
+    "countryLabel": "מדינה"
+  }
+}

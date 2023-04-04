@@ -1,0 +1,377 @@
+{
+  "home": {
+    "game_selector": {
+      "title": "Game apa yang ingin kamu mainkan?",
+      "cards": {
+        "questions": {
+          "title": "Pertanyaan",
+          "description": "Beritahu kami jika gambar yang diberikan menjawab pertanyaan"
+        },
+        "logos": {
+          "title": "Logos",
+          "description": "Temukan semua dan samakan dengan logo yang telah diberikan"
+        },
+        "eco_score": {
+          "title": "Eco-score",
+          "description": "Annotate the questions with the highest value"
+        }
+      }
+    },
+    "account_band": {
+      "title": "Want to make your contribution count? Create an account or sign in on Open Food Facts!",
+      "log_in": "Masuk",
+      "sign_up": "Daftar",
+      "contribution_details": "Learn why your contribution matters"
+    },
+    "saved_filters": "Saved Filters",
+    "contribution_modal": {
+      "title": "Your contribution matters",
+      "information": "Hunger Games is an effort to leverage the results of our OCR and artificial intelligence. When you use Hunger Games by Open Food Facts, you improve our entire database which helps the community make better food choices. We gather your annotations and use them to make Open Food Facts more accurate and effecient.",
+      "thank_you": "Thank you for helping us improve Open Food Facts so that more people can use it easily."
+    },
+    "statistics": {
+      "title": "{{userName}} statistics:",
+      "editorCount": {
+        "title": "Editor",
+        "description": "Number of editions done"
+      },
+      "contributorCount": {
+        "title": "Kontributor",
+        "description": "Adding a new product"
+      },
+      "photographerCount": {
+        "title": "Photographer",
+        "description": "Taking photos for a product"
+      }
+    }
+  },
+  "flagged_images": {
+    "title": "Images flagged by users",
+    "loading": "Loading"
+  },
+  "questions": {
+    "category": "kategori",
+    "categories": "Kategori",
+    "label": "label",
+    "labels": "Label - label",
+    "brand": "merek",
+    "brands": "Merek - merek",
+    "quantity": "Kuantitas",
+    "insightTypeLabel": "Only shows",
+    "ingredients": "bahan",
+    "product_weight": "berat produk",
+    "popularity_sort": "Urutkan berdasarkan popularitas",
+    "see_examples": "See examples of this ",
+    "no": "Tidak",
+    "skip": "Skip",
+    "yes": "Ya",
+    "no_questions_remaining": "Tidak ada pertanyaan yang tersisa",
+    "countries": "Negara - negara",
+    "view": "Lihat",
+    "edit": "Sunting",
+    "hide_images": "Sembunyikan gambar (memuat lebih cepat)",
+    "display_images": "Tampilkan gambar",
+    "annotations": "Anotasi",
+    "last_annotations": "Anotasi - anotasi terakhir",
+    "remaining_annotations": "Remaining questions",
+    "annotated_annotations": "Teranotasi",
+    "filters": {
+      "active_filter_number": "+{{count}} filters",
+      "active_filter_number_one": "+{{count}} filter",
+      "active_filter_number_zero": "no filter",
+      "short_label": {
+        "value": "nilai",
+        "country": "negara",
+        "brand": "merek",
+        "popularity": "popularitas",
+        "campaign": "camp"
+      },
+      "long_label": {
+        "type": "Tipe Pertanyaan",
+        "value": "Nilai yang Diusulkan",
+        "country": "Negara Pembuat Produk",
+        "brand": "Merek Produk",
+        "popularity": "Urutkan berdasarkan popularitas",
+        "edit": "",
+        "campaign": "Campaign"
+      },
+      "placeholders": {
+        "value": "Nilai (fanta, en:organik,...)",
+        "brand": "auchan, danone, herta, ...",
+        "campaign": "Annotation campaigns"
+      },
+      "actions": {
+        "edit": "Ubah Penyaringan",
+        "cancel": "Batalkan",
+        "apply": "Terapkan"
+      }
+    },
+    "other_questions": "Other questions",
+    "send": "Send",
+    "flag": "Something wrong? Report/flag the image!",
+    "unflag": "Unflag the image",
+    "reset_filters": "Reset filters",
+    "log_in": "Masuk",
+    "sign_up": "Daftar",
+    "login_title": "Make your annotation count",
+    "login_description": "You are not currently logged into Open Food Facts. To get your answers directly applied to products, and associated to your account, consider logging in to your Open Food Facts account, or creating one",
+    "please_wait_while_we_fetch_the_question": "Please wait while we fetch the question!"
+  },
+  "menu": {
+    "title": "Hunger Games",
+    "games": "Permainan",
+    "questions": "Pertanyaan",
+    "logos": "Logos",
+    "logos-annotation": "Logos annotation",
+    "logos-search": "Logos search",
+    "logos-product-search": "Annotation per products",
+    "logos-deep-search": "Infinite annotation",
+    "manage": "Kelola",
+    "insights": "Wawasan",
+    "nutritions": "Informasi nilai gizi",
+    "settings": "Pengaturan",
+    "eco-score": "Eco-score",
+    "dashboard": "Logos dashboard",
+    "tour": "Show tour",
+    "logged_in_user": "Logged as {{userName}}",
+    "log_in": "Click to login"
+  },
+  "insights": {
+    "insights": "Wawasan",
+    "barcode": "kode batang",
+    "barcode_placeholder": "kode batangan",
+    "value_tag": "Label nilai",
+    "value_placeholder": "cth: en:mueslis, bjorg,...",
+    "type": "Tipe",
+    "annotated": "Teranotasi",
+    "annotation": "Anotasi",
+    "not_annotated": "Tidak beranotasi",
+    "all": "Semua",
+    "label": "Label",
+    "product_weight": "Berat produk",
+    "category": "Kategori",
+    "expiration_date": "Tanggal kadaluarsa",
+    "packager_code": "Kode pengemasan",
+    "skipped": "Lewati (-1)",
+    "rejected": "Ditolak (0)",
+    "accepted": "Terima (1)",
+    "search": "Cari",
+    "count": "Hitung",
+    "id": "Id",
+    "value": "Nilai",
+    "created_at": "Di buat pada",
+    "completed_at": "Diselesaikan pada",
+    "automatic": "Otomatis",
+    "human_required": "Human required",
+    "edit_product": "Open product edit",
+    "view_product": "Open product page"
+  },
+  "logos": {
+    "annotation": "Anotasi: ",
+    "annotations": "Anotasi - anotasi logo",
+    "task_description": "Select all logos that are exactly the same, and give them a name like \"en:EU Organic\" and a type like \"label\".",
+    "select_all": "Pilih semua",
+    "unselect_all": "Batalkan semua pilihan",
+    "distance": "Jarak:",
+    "value": "Nilai",
+    "submit": "Kirim",
+    "type": "Tipe",
+    "label": "Label",
+    "brand": "Merek",
+    "packager_code": "Kode pengemasan",
+    "packaging": "Kemasan",
+    "qr_code": "Kode QR",
+    "category": "Kategori",
+    "nutrition_label": "Label nutrisi",
+    "no_logo": "Not a logo",
+    "store": "Toko",
+    "detail": "Rincian logo",
+    "id": "ID Logo:",
+    "barcode": "Barcode:",
+    "full_image": "Gambar penuh",
+    "update": "Pembaruan",
+    "no_found": "Logo tidak ditemukan",
+    "search": "Cari",
+    "number_of_results": "Jumlah hasil:",
+    "loading": "Memuat…",
+    "refresh": "Muat ulang",
+    "search_specific": "Search specific logo",
+    "load_more": "Load more",
+    "no_results": "Logo tidak ditemukan",
+    "result_count": "Shows {{showing}} on {{available}} available",
+    "flag": "Something wrong? Report/flag the image!",
+    "unflag": "Unflag the image",
+    "crop_image_title": "crop of the logo",
+    "no_more_questions": "No more questions about this logo. You can try to find more logos with the following game.",
+    "loading_messages": {
+      "pending_reference_logos": "We are loading some logos examples to initialise the serach",
+      "failed_reference_logos": "We did not find any logos with this annotation. Try to use the following game to annotate some of them."
+    }
+  },
+  "settings": {
+    "settings": "Pengaturan",
+    "language": "Bahasa",
+    "save": "menyimpan ",
+    "reportIssue": "Found a bug? Please let us know.",
+    "dev_mode_title": "To get more options, activate the dev mode",
+    "dev_mode_label": "Dev Mode",
+    "dev_page_toggle": "Show {{name}} page",
+    "join_community": "Bergabunglah dengan komunitas",
+    "text1": "Open Food Facts is a collaborative project built by tens of thousands of volunteers and managed by a non-profit organization with 8 employees. We need your donations to fund the Open Food Facts 2023 budget and to continue to develop the project.",
+    "thank_you": "Thank you",
+    "donate": "Berdonasi",
+    "join_the_community": {
+      "discover_our": "Discover our ",
+      "code_of_conduct": "Code of conduct ",
+      "join_us_on": "Join us on ",
+      "forum": "Forum",
+      "subscribe_to_our": "Subscribe to our ",
+      "newsletter": "newsletter"
+    },
+    "discover_the_project": "Temukan proyeknya",
+    "Who_we_are": "Siapa kami",
+    "Vision_Mission_Values_and_Programs": "Visi, Misi, Nilai dan Program",
+    "FAQS": "FAQS",
+    "open_Food_Facts_blog": "Open Food Facts blog",
+    "Press": "Pers",
+    "Open_Food_Facts_wiki": "Open Food Facts wiki (en)",
+    "Translators": "Para penerjemah",
+    "Partners": "Para mitra",
+    "Open_Beauty_Facts": "Open Beauty Facts - Kosmetik",
+    "text2": "Sebuah basis data kolaboratif, bebas, dan terbuka mengenai produk makanan dari seluruh dunia."
+  },
+  "helper": {
+    "welcome": {
+      "page1": {
+        "title": "Welcome to Hunger Games",
+        "text1": "Hunger Games is a collection of mini-games that help contribute to Open Food Facts in many ways. You can play are really exciting games from anywhere. Here is a guided tour of the entire website which will get you started.",
+        "text2": "Make sure to login to the Open Food Facts website to get credit for your contributions. If you make a mistake, please take the time to correct it by heading to the website.",
+        "text3": "In case of any doubt about the games, click on the question mark icon at the top right of the page, and you can reach us on slack at the #hunger-games channel"
+      },
+      "page2": {
+        "title": "Questions Game",
+        "text1": "Does the food product belong to this brand?",
+        "text2": "Simply answer with a <strong>Yes/No</strong>! Don't know the answer? That's alright, just skip it.",
+        "text3": "You can also use your keyboard shortcuts: y,n and k.",
+        "text4": "You can <strong>filter</strong> the products based on country, brands, popularity and much more!",
+        "text5": "If you don't want to do this every single time, you can also <strong>save the filters</strong> by clicking on the star. Next time you come back, find the saved filters on the home page itself"
+      },
+      "page3": {
+        "title": "Logos Game",
+        "text1": "Another popular game is the logos game where you have to <strong>select all the logos</strong> you feel are the same.",
+        "text2": "As shown in the example, once you select all the similar logos, just type their value and select where it is a brand, a label or something else. It's that simple!"
+      },
+      "page4": {
+        "title": "Eco-Score Questions Game",
+        "text1": "Help us finish the remaining questions in the most high priority labels!",
+        "text2": "These cards are linked to labels used in the computation of the Eco-Score.",
+        "text3": "<strong>What is Eco-Score?</strong>",
+        "text4": "Eco-Score captures the total environmental footprint, making it easier for consumers to compare products and decide which is better for the environment."
+      },
+      "page5": {
+        "title": "Pengaturan",
+        "text1": "Set your preferred language, and report issues from our settings page.",
+        "text2": "If you're a developer, you can also explore our database content using our dev mode."
+      },
+      "page6": {
+        "title": "Tour",
+        "text1": "Got stuck somewhere? Want to take the tour again?",
+        "text2": "Just click on the question mark and start the journey again!"
+      }
+    },
+    "logos": {
+      "page1": {
+        "title": "Pilihan",
+        "text1": "Pilih gambar terpotong dengan logo yang sama dengan mengkliknya",
+        "text2": "Logo - logo terpilih masuk ke bagian atas halaman, Anda bisa membatalkan pilihan dengan mengkliknya lagi"
+      },
+      "page2": {
+        "title": "Peringatan",
+        "text1": "If the crop contains multiple logos, do not select it.",
+        "text2": "If the crop contains only a partial part of a logo, you can select it."
+      },
+      "page3": {
+        "title": "Validasikan",
+        "text1": "Tunjukkan tipe logo (label, merek, kode QR ...)",
+        "text2": "Jika itu adalah label atau logo merek, tunjukkan salah satu dari keduanya",
+        "text3": "Sekarang Anda bisa mengirimkan pilihan Anda",
+        "text4": "Terima kasih :)"
+      }
+    },
+    "previous": "Sebelumnya",
+    "next": "Selanjutnya",
+    "close": "Tutup"
+  },
+  "nutrition": {
+    "instructions": {
+      "cropTheTable": "Potong gambar untuk menyederhanakan anotasi Anda",
+      "verifyNutrimentDetected": "Tunjukkan jika makanan bergizi yang terdeteksi benar",
+      "selectMissingNutriments": "Tambahkan nutrisi yang hilang (Anda bisa mengklik bahkan jika katanya tidak memiliki kotak)",
+      "selectValue": "Pilih nilai gizi dari: "
+    },
+    "steps": {
+      "1": "Gambar terpotong",
+      "2": "Nilai - nilai khusus",
+      "3": "Pilihan nutrisi",
+      "4": "Pilihan Nilai"
+    },
+    "loading": "Loading...",
+    "unknown_brand": "Brand Unknown",
+    "value_missing": "You forgot to input a value.",
+    "next": "Next step",
+    "prev": "Prev step",
+    "skip": "Lewati produk ini",
+    "validate": "Validasikan Tabel",
+    "unselect_picture": "Tidak ada informasi gizi",
+    "basis": "data untuk: ",
+    "servingSize": "takaran saji",
+    "value": "Nilai",
+    "unit": "Unit",
+    "nutriments": {
+      "nutriment_energy-kj": "Energi (kJ)",
+      "nutriment_energy-kcal": "Energi (kKal)",
+      "nutriment_fat": "Lemak",
+      "nutriment_saturated-fat": "Lemak jenuh",
+      "nutriment_carbohydrates": "Karbohidrat",
+      "nutriment_sugars": "Gula",
+      "nutriment_proteins": "Protein:",
+      "nutriment_fiber": "Serat",
+      "nutriment_salt": "Garam",
+      "nutriment_sodium": "Natrium"
+    },
+    "history": {
+      "title": "Riwayat Sesi",
+      "status": "status",
+      "product name": "nama produk",
+      "view": "lihat halaman",
+      "edit": "sunting halaman",
+      "SKIP": "diabaikan",
+      "VALIDATED": "tersunting",
+      "WRONG_IMAGE": "gambar yang tak dipilih",
+      "close": "tutup",
+      "open": "buka riwayat"
+    }
+  },
+  "notfound": {
+    "image_alt": "404 not found",
+    "nopage": "Whoops! The page you're looking for can't be found.",
+    "redirect1": "Want to play some games?",
+    "redirect2": "Click here"
+  },
+  "nutriscore": {
+    "image_alt": "cropped image",
+    "label": "Annotate Nutri-Score logo detection by batch.",
+    "description": "To do so, select all the images showing the correct/wrong Nutri-Score value ({{label}}), and click on the bottom buttons to say if you selected a set correct or wrong ones.",
+    "images_remaining": "Still {{remaining}} to annotate",
+    "image_sizes": "Image sizes",
+    "zoom_on_logo": "Zoom on logo",
+    "select_all": "Pilih semua",
+    "deselect_all": "Batalkan semua pilihan",
+    "incorrect": "Wrong",
+    "correct": "Correct ({{label}})"
+  },
+  "eco-score": {
+    "description": "Here is a summary of questions that could improve Eco-Score computation",
+    "countryLabel": "Negara"
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "home": {
+    "game_selector": {
+      "title": "Hangi oyunu oynamak istersin?",
+      "cards": {
+        "questions": {
+          "title": "Sorular",
+          "description": "Verilen görüntünün soruları yanıtlayıp yanıtlamadığını bize bildirin"
+        },
+        "logos": {
+          "title": "Logolar",
+          "description": "Verilen logoyla eşleşen tüm logoları bulun"
+        },
+        "eco_score": {
+          "title": "Eko-skor",
+          "description": "En yüksek değere sahip sorulara açıklama ekleyin"
+        }
+      }
+    },
+    "account_band": {
+      "title": "Katkılarınızı saymak ister misiniz? Bir hesap oluşturun veya Open Food Facts'te oturum açın!",
+      "log_in": "Kullanıcı adı",
+      "sign_up": "Kaydol",
+      "contribution_details": "Katkınızın neden önemli olduğunu öğrenin"
+    },
+    "saved_filters": "Kaydedilen Filtreler",
+    "contribution_modal": {
+      "title": "Katkınız önemlidir",
+      "information": "Açlık Oyunları, OCR ve yapay zekamızın sonuçlarından yararlanma çabasıdır. Open Food Facts'e göre Açlık Oyunları'nı kullandığınızda, topluluğun daha iyi yemek seçimleri yapmasına yardımcı olan veritabanımızın tamamını geliştirirsiniz. Ek açıklamalarınızı topluyoruz ve Open Food Facts'i daha doğru ve verimli hale getirmek için kullanıyoruz.",
+      "thank_you": "Daha fazla insanın kolayca kullanabilmesi için Open Food Facts'i geliştirmemize yardımcı olduğunuz için teşekkür ederiz."
+    },
+    "statistics": {
+      "title": "{{userName}} istatistikler:",
+      "editorCount": {
+        "title": "Editör",
+        "description": "Yapılan baskı sayısı"
+      },
+      "contributorCount": {
+        "title": "Katkı sağlayan",
+        "description": "Yeni bir ürün ekleme"
+      },
+      "photographerCount": {
+        "title": "Fotoğrafçı",
+        "description": "Bir ürün için fotoğraf çekmek"
+      }
+    }
+  },
+  "flagged_images": {
+    "title": "Kullanıcılar tarafından işaretlenen resimler",
+    "loading": "Yükleniyor"
+  },
+  "questions": {
+    "category": "kategori",
+    "categories": "Kategoriler",
+    "label": "etiket",
+    "labels": "Etiketler",
+    "brand": "marka",
+    "brands": "Markalar",
+    "quantity": "Miktar",
+    "insightTypeLabel": "Sadece göster",
+    "ingredients": "İçindekiler",
+    "product_weight": "ürün ağırlığı",
+    "popularity_sort": "Popülerliğe göre sırala",
+    "see_examples": "Bunun örneklerine bakın ",
+    "no": "Hayır",
+    "skip": "Atla",
+    "yes": "Evet",
+    "no_questions_remaining": "Kalan soru yok",
+    "countries": "Ülkeler",
+    "view": "Görüntüle",
+    "edit": "Düzenle",
+    "hide_images": "Resimleri gizle (daha hızlı yükleme)",
+    "display_images": "Resimleri görüntüle",
+    "annotations": "3. Ek Açıklamalar",
+    "last_annotations": "Son ek açıklamalar",
+    "remaining_annotations": "Kalan sorular",
+    "annotated_annotations": "Açıklandı",
+    "filters": {
+      "active_filter_number": "+{{count}} filtreler",
+      "active_filter_number_one": "+{{count}} filtre",
+      "active_filter_number_zero": "filtre yok",
+      "short_label": {
+        "value": "değer",
+        "country": "ülke",
+        "brand": "marka",
+        "popularity": "popülerlik",
+        "campaign": "kamp"
+      },
+      "long_label": {
+        "type": "Soru Tipi",
+        "value": "Önerilen Değer",
+        "country": "Ürünün Ülkesi",
+        "brand": "Ürünün Markası",
+        "popularity": "Popülerliğe göre sırala",
+        "edit": "",
+        "campaign": "Kampanya"
+      },
+      "placeholders": {
+        "value": "Değer (fanta, en:organik,...)",
+        "brand": "auchan, danone, herta, ...",
+        "campaign": "Yorumlama kampanyaları"
+      },
+      "actions": {
+        "edit": "Süzgeçleri Düzenle",
+        "cancel": "İptal",
+        "apply": "Uygula"
+      }
+    },
+    "other_questions": "Diğer sorular",
+    "send": "Gönder",
+    "flag": "Ters giden birşey mi var? Resmi rapor edin/işaretleyin!",
+    "unflag": "Resmin işaretini kaldır",
+    "reset_filters": "Filtreleri sıfırla",
+    "log_in": "Kullanıcı adı",
+    "sign_up": "Kaydol",
+    "login_title": "Ek açıklama sayınızı yapın",
+    "login_description": "Şu anda Open Food Facts'e giriş yapmadınız. Yanıtlarınızın doğrudan ürünlere uygulanmasını ve hesabınızla ilişkilendirilmesini sağlamak için Open Food Facts hesabınıza giriş yapmayı veya bir tane oluşturmayı düşünün",
+    "please_wait_while_we_fetch_the_question": "Biz soruyu getirirken lütfen bekleyin!"
+  },
+  "menu": {
+    "title": "Açlık Oyunları",
+    "games": "Oyunlar",
+    "questions": "Sorular",
+    "logos": "Logolar",
+    "logos-annotation": "Logolar ek açıklaması",
+    "logos-search": "Logo arama",
+    "logos-product-search": "Ürün başına açıklama",
+    "logos-deep-search": "Sonsuz açıklama",
+    "manage": "Yönet",
+    "insights": "Yönelimler",
+    "nutritions": "Beslenme gerçekleri",
+    "settings": "Ayarlar",
+    "eco-score": "Eko-skor",
+    "dashboard": "Logo panosu",
+    "tour": "Gösteri Turu",
+    "logged_in_user": "{{userName}} olarak günlüğe kaydedildi",
+    "log_in": "Giriş yapmak için tıklayın"
+  },
+  "insights": {
+    "insights": "Yönelimler",
+    "barcode": "Barkod",
+    "barcode_placeholder": "barkod",
+    "value_tag": "Etiket",
+    "value_placeholder": "örn: en:mueslis, bjorg,...",
+    "type": "Tür",
+    "annotated": "Açıklandı",
+    "annotation": "Açıklama",
+    "not_annotated": "Açıklanmadı",
+    "all": "Hepsi",
+    "label": "Etiket",
+    "product_weight": "Ürün ağırlığı",
+    "category": "Kategori",
+    "expiration_date": "Son kullanma tarihi",
+    "packager_code": "Paketleyici kodu",
+    "skipped": "Atlandı (-1)",
+    "rejected": "Reddedildi (0)",
+    "accepted": "Kabul edildi (1)",
+    "search": "Ara",
+    "count": "Miktar",
+    "id": "Id",
+    "value": "Değer",
+    "created_at": "Oluşturulma tarihi",
+    "completed_at": "Tamamlanma tarihi",
+    "automatic": "Otomatik",
+    "human_required": "İnsan gerekli",
+    "edit_product": "Ürün düzenlemeyi aç",
+    "view_product": "Ürün sayfasını aç"
+  },
+  "logos": {
+    "annotation": "Açıklama: ",
+    "annotations": "Logo açıklamaları",
+    "task_description": "Tamamen aynı olan tüm logoları seçin ve onlara \"en:EU Organik\" gibi bir ad ve \"etiket\" gibi bir tür verin.",
+    "select_all": "Tümünü seç",
+    "unselect_all": "Tümünün seçimini kaldır",
+    "distance": "Mesafe:",
+    "value": "Değer",
+    "submit": "Gönder",
+    "type": "Tür",
+    "label": "Etiket",
+    "brand": "Marka",
+    "packager_code": "Paketleyici kodu",
+    "packaging": "Ambalaj",
+    "qr_code": "QR kodu",
+    "category": "Kategori",
+    "nutrition_label": "Besin Değerleri",
+    "no_logo": "Logo değil",
+    "store": "Mağaza",
+    "detail": "Logo detayı",
+    "id": "Logo ID:",
+    "barcode": "Barkod:",
+    "full_image": "Tam resim",
+    "update": "Güncelle",
+    "no_found": "Logo bulunamadı",
+    "search": "Ara",
+    "number_of_results": "Sonuç sayısı:",
+    "loading": "Yükleniyor…",
+    "refresh": "Yenile",
+    "search_specific": "Belirli bir logoyu ara",
+    "load_more": "Daha fazla yükle",
+    "no_results": "Logo bulunamadı",
+    "result_count": "Mevcut {{showing}} üzerinde {{available}} gösteriliyor",
+    "flag": "Ters giden birşey mi var? Resmi rapor edin/işaretleyin!",
+    "unflag": "Resmin işaretini kaldır",
+    "crop_image_title": "logoyu kırp",
+    "no_more_questions": "Bu logo hakkında başka soru yok. Aşağıdaki oyun ile daha fazla logo bulmayı deneyebilirsiniz.",
+    "loading_messages": {
+      "pending_reference_logos": "Serach'ı başlatmak için bazı logo örnekleri yüklüyoruz",
+      "failed_reference_logos": "Bu açıklamaya sahip herhangi bir logo bulamadık. Bazılarına açıklama eklemek için aşağıdaki oyunu kullanmayı deneyin."
+    }
+  },
+  "settings": {
+    "settings": "Ayarlar",
+    "language": "Diller",
+    "save": "Kaydet",
+    "reportIssue": "Bir hata mı buldunuz? Lütfen bize bildirin.",
+    "dev_mode_title": "Daha fazla seçenek elde etmek için geliştirme modunu etkinleştirin",
+    "dev_mode_label": "Geliştirici Modu",
+    "dev_page_toggle": "{{name}} sayfayı göster",
+    "join_community": "Topluluğa katılın",
+    "text1": "Open Food Facts, on binlerce gönüllü tarafından oluşturulan ve 8 çalışanı olan kar amacı gütmeyen bir kuruluş tarafından yönetilen ortak bir projedir. Open Food Facts 2023 bütçesini finanse etmek ve projeyi geliştirmeye devam etmek için bağışlarınıza ihtiyacımız var.",
+    "thank_you": "Teşekkürler",
+    "donate": "Bağış Yapın",
+    "join_the_community": {
+      "discover_our": "Keşfedin ",
+      "code_of_conduct": "Davranış kuralları ",
+      "join_us_on": "Bize katılın ",
+      "forum": "Forum",
+      "subscribe_to_our": "Subscribe to our ",
+      "newsletter": "haber bülteni"
+    },
+    "discover_the_project": "Projeyi keşfedin",
+    "Who_we_are": "Biz kimiz",
+    "Vision_Mission_Values_and_Programs": "Vizyon, Misyon, Değerler ve Programlar",
+    "FAQS": "SSS",
+    "open_Food_Facts_blog": "Open Food Facts blog",
+    "Press": "Basın",
+    "Open_Food_Facts_wiki": "Open Food Facts wiki (en)",
+    "Translators": "Çevirmenler",
+    "Partners": "Partnerler",
+    "Open_Beauty_Facts": "Open Beauty Facts - Kozmetik ürünleri",
+    "text2": "Dünyanın dört bir yanından katılımcı, özgür ve açık gıda ürünleri veritabanı."
+  },
+  "helper": {
+    "welcome": {
+      "page1": {
+        "title": "Açlık Oyunları'na hoş geldiniz",
+        "text1": "Açlık Oyunları, Open Food Facts'e birçok yönden katkıda bulunmaya yardımcı olan bir mini oyunlar koleksiyonudur. Gerçekten heyecan verici oyunları her yerden oynayabilirsiniz. İşte başlamanıza yardımcı olacak tüm web sitesinin rehberli bir turu.",
+        "text2": "Katkılarınız için kredi almak için Open Food Facts web sitesine giriş yaptığınızdan emin olun. Bir hata yaparsanız, lütfen web sitesine giderek düzeltmek için zaman ayırın.",
+        "text3": "Oyunlarla ilgili herhangi bir şüpheniz olması durumunda sayfanın sağ üst köşesindeki soru işareti ikonuna tıklayarak bize #açlık-oyunları kanalından slack'ten ulaşabilirsiniz"
+      },
+      "page2": {
+        "title": "Sorular Oyunu",
+        "text1": "Gıda ürünü bu markaya mı ait?",
+        "text2": "<strong>Evet/Hayır</strong> ile yanıtlamanız yeterlidir! Cevabı bilmiyorsanız atlayın.",
+        "text3": "Klavye kısayollarınızı da kullanabilirsiniz: y,n ve k.",
+        "text4": "Ürünleri ülke, marka, popülerlik ve çok daha fazlasına göre <strong>filtreleyebilirsiniz</strong>!",
+        "text5": "Bunu her seferinde yapmak istemiyorsanız, yıldızı tıklayarak <strong>filtreleri kaydedebilirsiniz</strong>. Bir dahaki sefere geri döndüğünüzde, kayıtlı filtreleri ana sayfanın kendisinde bulun"
+      },
+      "page3": {
+        "title": "Logolar Oyunu",
+        "text1": "Diğer bir popüler oyun da, aynı olduğunu düşündüğünüz <strong>tüm logoları seçmeniz</strong> gereken logo oyunudur.",
+        "text2": "Örnekte gösterildiği gibi, tüm benzer logoları seçtikten sonra, değerlerini yazın ve nerede bir marka, bir etiket veya başka bir şey olduğunu seçin. Bu kadar basit!"
+      },
+      "page4": {
+        "title": "Eko-Skor Soruları Oyunu",
+        "text1": "En yüksek öncelikli etiketlerde kalan soruları bitirmemize yardım edin!",
+        "text2": "Bu kartlar, Eco-Score'un hesaplanmasında kullanılan etiketlerle bağlantılıdır.",
+        "text3": "<strong>Eko-Skor nedir?</strong>",
+        "text4": "Eco-Score, toplam çevresel ayak izini yakalayarak tüketicilerin ürünleri karşılaştırmasını ve hangisinin çevre için daha iyi olduğuna karar vermesini kolaylaştırır."
+      },
+      "page5": {
+        "title": "Ayarlar",
+        "text1": "Tercih ettiğiniz dili ayarlayın ve ayarlar sayfamızdan sorunları bildirin.",
+        "text2": "Bir geliştiriciyseniz, geliştirme modumuzu kullanarak veritabanı içeriğimizi de keşfedebilirsiniz."
+      },
+      "page6": {
+        "title": "Tur",
+        "text1": "Bir yere mi takıldınız? Turu tekrar yapmak ister misiniz?",
+        "text2": "Sadece soru işaretine tıklayın ve yolculuğa yeniden başlayın!"
+      }
+    },
+    "logos": {
+      "page1": {
+        "title": "Seçim",
+        "text1": "Aynı logolu ekinleri üzerlerine tıklayarak seçin",
+        "text2": "Seçilen logolar sayfanın üstüne gidecek, üstlerine tekrar tıklayarak seçmeyi geri alabilirsiniz"
+      },
+      "page2": {
+        "title": "Uyarı",
+        "text1": "Kırpma birden fazla logo içeriyorsa, onu seçmeyin.",
+        "text2": "Kırpma, logonun yalnızca bir kısmını içeriyorsa, onu seçebilirsiniz."
+      },
+      "page3": {
+        "title": "Geçerlilik",
+        "text1": "Logo türünü belirtin (etiket, marka, QR kodu, ...)",
+        "text2": "Etiket veya marka logosu ise hangisi olduğunu belirtiniz",
+        "text3": "Şimdi seçiminizi gönderebilirsiniz",
+        "text4": "Teşekkür ederiz :)"
+      }
+    },
+    "previous": "Önce",
+    "next": "Sonraki",
+    "close": "Kapat"
+  },
+  "nutrition": {
+    "instructions": {
+      "cropTheTable": "Ek açıklamanızı basitleştirmek için resmi kırpın",
+      "verifyNutrimentDetected": "Tespit edilen besinin doğru olup olmadığını belirtin",
+      "selectMissingNutriments": "Eksik besinleri ekleyin (kelimenin kutusu olmasa bile tıklayabilirsiniz)",
+      "selectValue": "Besin değerini seçin: "
+    },
+    "steps": {
+      "1": "Kırp",
+      "2": "Özel değerler",
+      "3": "Besinlerin Seçimi",
+      "4": "Değerlerin Seçimi"
+    },
+    "loading": "Yükleniyor...",
+    "unknown_brand": "Marka Bilinmiyor",
+    "value_missing": "Bir değer girmeyi unuttunuz.",
+    "next": "Sonraki adım",
+    "prev": "Önceki adım",
+    "skip": "Bu ürünü atla",
+    "validate": "Tabloyu Doğrula",
+    "unselect_picture": "Besin değeri yok",
+    "basis": "için veri: ",
+    "servingSize": "porsiyon ölçüsü",
+    "value": "Değer",
+    "unit": "Birim",
+    "nutriments": {
+      "nutriment_energy-kj": "Enerji (kJ)",
+      "nutriment_energy-kcal": "Enerji (kCal)",
+      "nutriment_fat": "Yağ",
+      "nutriment_saturated-fat": "Doymuş yağ",
+      "nutriment_carbohydrates": "Karbonhidrat",
+      "nutriment_sugars": "Şeker",
+      "nutriment_proteins": "Proteinler",
+      "nutriment_fiber": "Fiberler",
+      "nutriment_salt": "Tuz",
+      "nutriment_sodium": "Sodyum"
+    },
+    "history": {
+      "title": "Oturum Geçmişi",
+      "status": "durum",
+      "product name": "ürün ismi",
+      "view": "sayfayı görüntüle",
+      "edit": "sayfayı düzenle",
+      "SKIP": "yoksayıldı",
+      "VALIDATED": "düzenlendi",
+      "WRONG_IMAGE": "seçilmemiş resim",
+      "close": "kapat",
+      "open": "geçmişi aç"
+    }
+  },
+  "notfound": {
+    "image_alt": "404 Bulunamadı",
+    "nopage": "Tüh! Aradığınız sayfa bulunamadı.",
+    "redirect1": "Biraz oyun oynamak ister misin?",
+    "redirect2": "Buraya tıklayın"
+  },
+  "nutriscore": {
+    "image_alt": "kırpılmış görüntü",
+    "label": "Nutri-Score logo algılamasına toplu açıklama ekleyin.",
+    "description": "Bunu yapmak için, doğru/yanlış Nutri-Score değerini ({{label}}) gösteren tüm resimleri seçin ve doğru veya yanlış olanları seçip seçmediğinizi belirtmek için alttaki düğmelere tıklayın.",
+    "images_remaining": "Hala {{remaining}} açıklama eklenecek",
+    "image_sizes": "Görüntü boyutları",
+    "zoom_on_logo": "Logoyu yakınlaştır",
+    "select_all": "Tümünü seç",
+    "deselect_all": "Tümünün seçimini kaldır",
+    "incorrect": "Yanlış",
+    "correct": "Doğru ({{label}})"
+  },
+  "eco-score": {
+    "description": "Eko-Skor hesaplamasını iyileştirebilecek soruların bir özetini burada bulabilirsiniz",
+    "countryLabel": "Ülke"
+  }
+}
