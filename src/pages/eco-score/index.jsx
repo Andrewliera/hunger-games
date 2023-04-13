@@ -2,8 +2,6 @@ import * as React from "react";
 
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
-import TextField from "@mui/material/TextField";
-import MenuItem from "@mui/material/MenuItem";
 import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
 
@@ -11,7 +9,6 @@ import SmallQuestionCard from "../../components/SmallQuestionCard";
 import Opportunities from "../../components/Opportunities";
 import { DEFAULT_FILTER_STATE } from "../../components/QuestionFilter/const";
 import { useTranslation } from "react-i18next";
-import { capitaliseName } from "../../utils";
 import { getCountry } from "../../localeStorageManager";
 
 const ecoScoreCards = [
@@ -166,7 +163,7 @@ export const countryNames = [
 
 export default function EcoScore() {
   const { t } = useTranslation();
-  const [selectedCountry, setSelectedCountry] = React.useState(getCountry());
+  const [selectedCountry] = React.useState(getCountry());
 
 
   return (
