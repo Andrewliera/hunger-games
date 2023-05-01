@@ -244,10 +244,17 @@
   "helper": {
     "welcome": {
       "page1": {
+<<<<<<< HEAD
         "title": "Tervetuloa Nälkäpeliin",
         "text1": "Nälkäpeli on kasa minipelejä, joilla voit auttaa sovellustamme monin tavoin. Voit pelata jännittäviä pelejä missä tahansa. Tässä opastettu kierros nettisivusta, jolla pääset alkuun.",
         "text2": "Kirjaudu Open Food Factsin sivuille saadaksesi palkkioita osallistumisestasi. Jos teet virheen, korjaa se sivuillamme.",
         "text3": "Jos et ymmärrä, paina kysymysmerkkiä sivun oikeassa ylänurkassa tai ota yhteyttä #hunger-games -kanavalla"
+=======
+        "title": "Welcome to Hunger Games",
+        "text1": "Hunger Games is a collection of mini-games that help contribute to Open Food Facts in many ways. You can play our really exciting games from anywhere. Here is a guided tour of the entire website which will get you started.",
+        "text2": "Make sure to login to the Open Food Facts website to get credit for your contributions. If you make a mistake, please take the time to correct it by heading to the website.",
+        "text3": "In case of any doubt about the games, click on the question mark icon at the top right of the page, and you can reach us on slack at the #hunger-games channel"
+>>>>>>> a6b47ab5c9234be8f2cccf4dae786ee7f1d82d5f
       },
       "page2": {
         "title": "Kysymyspeli",
