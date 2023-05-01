@@ -300,7 +300,7 @@ const QuestionDisplay = ({ question, productData }) => {
           color="success"
           variant="contained"
           size="large"
-          sx={{ display: "flex", flexDirection: "column", flexGrow: 1 }}
+          sx={{ display: "flex", flexDirection: "column", flexGrow: 1,color:'blue'}}
         >
           {t("questions.yes")} ({shortcuts.yes})
         </Button>

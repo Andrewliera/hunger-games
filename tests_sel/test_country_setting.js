@@ -29,8 +29,8 @@ async function test_drop_down(){
   const label = await driver.findElement(By.id(":r5:")).getText();
   
   //
-  const test = "Belgium";
-  assert(test == label);
+  const test = "Bulgium";
+  assert(test === label);
 
 }
 test_drop_down();
