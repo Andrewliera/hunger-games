@@ -287,7 +287,7 @@ const QuestionDisplay = ({ question, productData }) => {
           sx={{
             display: "flex",
             flexDirection: "column",
-            flexGrow: 1,
+            flexGrow: 5,
             color: "blue",
           }}        >
           <DeleteIcon />
@@ -307,7 +307,7 @@ const QuestionDisplay = ({ question, productData }) => {
           sx={{
             display: "flex",
             flexDirection: "column",
-            flexGrow: 1,
+            flexGrow: 2,
             color: "blue",
           }}        >
           {t("questions.yes")} ({shortcuts.yes})
