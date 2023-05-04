@@ -45,8 +45,8 @@ const HomeCards = () => {
       }}
     >
       {cards.map((cardInfo) => (
-        <Card sx={{ width: 350, height: 300 }} key={cardInfo.title}>
-          <CardActionArea component={Link} to={cardInfo.link}>
+        <Card sx={{ width: 550, height: 300 }} key={cardInfo.title}>
+        <CardActionArea component={Link} to={cardInfo.link}>
             <CardMedia
               component="img"
               height="200"
@@ -62,7 +62,8 @@ const HomeCards = () => {
                 gutterBottom
                 variant="p"
                 component="div"
-                fontSize={14}
+                fontSize={20}
+                color={"green"}
               >
                 {t(cardInfo.desc)}
               </Typography>
