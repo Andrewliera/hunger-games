@@ -284,8 +284,12 @@ const QuestionDisplay = ({ question, productData }) => {
           color="error"
           variant="contained"
           size="large"
-          sx={{ display: "flex", flexDirection: "column", flexGrow: 1 }}
-        >
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            flexGrow: 1,
+            color: "blue",
+          }}        >
           <DeleteIcon />
           {t("questions.no")} ({shortcuts.no})
         </Button>
@@ -300,8 +304,12 @@ const QuestionDisplay = ({ question, productData }) => {
           color="success"
           variant="contained"
           size="large"
-          sx={{ display: "flex", flexDirection: "column", flexGrow: 1,color:'blue'}}
-        >
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            flexGrow: 1,
+            color: "blue",
+          }}        >
           {t("questions.yes")} ({shortcuts.yes})
         </Button>
       </Stack>
@@ -316,7 +324,7 @@ const QuestionDisplay = ({ question, productData }) => {
         variant="contained"
         size="medium"
         autoFocus
-        sx={{ py: "1rem" }}
+        sx={{ py: "1rem", color: "White", color: "blue" }}
       >
         {t("questions.skip")} ({shortcuts.skip})
       </Button>
