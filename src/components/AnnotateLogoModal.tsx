@@ -8,6 +8,9 @@ import LogoForm from "./LogoForm";
 import LogoGrid from "./LogoGrid";
 import robotoff from "../robotoff";
 import { IS_DEVELOPMENT_MODE } from "../const";
+import Button from '@mui/material/Button';
+
+
 
 const AnnotateLogoModal = (props) => {
   const {
@@ -46,7 +49,7 @@ const AnnotateLogoModal = (props) => {
     } catch {}
   };
   return (
-    <Dialog open={isOpen} onClose={closeAnnotation} maxWidth="xl">
+    <Dialog open={isOpen} onClose={closeAnnotation} maxWidth="xl" fullScreen>
       <DialogContent>
         <Typography variant="h5">Selected logos</Typography>
         <LogoGrid
@@ -64,6 +67,8 @@ const AnnotateLogoModal = (props) => {
           sx={{ padding: [2, 4] }}
         />
       </DialogActions>
+      <Button variant="contained" color="error" onClick={closeAnnotation}>Cancel</Button>
+
     </Dialog>
   );
 };
