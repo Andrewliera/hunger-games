@@ -229,7 +229,7 @@ const QuestionDisplay = ({ question, productData }) => {
         flexShrink={1}
         sx={{
           height: `calc(100vh - ${isDesktop ? 461 : 445}px)`,
-          marginBottom: 1,
+          marginBottom: 20,
           position: "relative",
         }}
       >
@@ -246,8 +246,8 @@ const QuestionDisplay = ({ question, productData }) => {
           }}
           imageProps={{
             style: {
-              maxHeight: "100%",
-              maxWidth: "100%",
+              maxHeight: "550%",
+              maxWidth: "400%",
             },
           }}
         />
@@ -258,7 +258,7 @@ const QuestionDisplay = ({ question, productData }) => {
               position: "absolute",
               bottom: 0,
               right: 0,
-              maxHeight: "75px",
+              maxHeight: "95px",
               maxWidth: "150px",
             }}
           />
@@ -266,7 +266,7 @@ const QuestionDisplay = ({ question, productData }) => {
           <Typography
             sx={{
               position: "absolute",
-              bottom: 0,
+              bottom: 3,
             }}
           >
             {productData?.productName}
@@ -287,7 +287,7 @@ const QuestionDisplay = ({ question, productData }) => {
           sx={{
             display: "flex",
             flexDirection: "column",
-            flexGrow: 1,
+            flexGrow: 5,
             color: "blue",
           }}        >
           <DeleteIcon />
@@ -307,8 +307,8 @@ const QuestionDisplay = ({ question, productData }) => {
           sx={{
             display: "flex",
             flexDirection: "column",
-            flexGrow: 1,
-            color: "blue",
+            flexGrow: 2,
+            color: "blue"
           }}        >
           {t("questions.yes")} ({shortcuts.yes})
         </Button>
@@ -324,7 +324,7 @@ const QuestionDisplay = ({ question, productData }) => {
         variant="contained"
         size="medium"
         autoFocus
-        sx={{ py: "1rem", color: "White", color: "blue" }}
+        sx={{ py: "2rem", color: "White", color: "blue" }}
       >
         {t("questions.skip")} ({shortcuts.skip})
       </Button>
