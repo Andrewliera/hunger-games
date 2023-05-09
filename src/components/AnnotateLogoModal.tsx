@@ -3,11 +3,14 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogActions from "@mui/material/DialogActions";
 import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
+import { useTheme } from "@material-ui/core/styles";
 
 import LogoForm from "./LogoForm";
 import LogoGrid from "./LogoGrid";
 import robotoff from "../robotoff";
 import { IS_DEVELOPMENT_MODE } from "../const";
+import Button from "@mui/material/Button";
 
 const AnnotateLogoModal = (props) => {
   const {
@@ -45,8 +48,17 @@ const AnnotateLogoModal = (props) => {
       );
     } catch {}
   };
+
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
   return (
-    <Dialog open={isOpen} onClose={closeAnnotation} maxWidth="xl">
+    <Dialog
+      open={isOpen}
+      onClose={closeAnnotation}
+      maxWidth="xl"
+      fullScreen={isMobile}
+    >
       <DialogContent>
         <Typography variant="h5">Selected logos</Typography>
         <LogoGrid
@@ -64,6 +76,9 @@ const AnnotateLogoModal = (props) => {
           sx={{ padding: [2, 4] }}
         />
       </DialogActions>
+      <Button variant="contained" color="error" onClick={closeAnnotation}>
+        Cancel
+      </Button>
     </Dialog>
   );
 };
