@@ -288,7 +288,8 @@ const QuestionDisplay = ({ question, productData }) => {
             display: "flex",
             flexDirection: "column",
             flexGrow: 5,
-            color: "blue"
+            color: "blue",
+            fontSize: 12
           }}        >
           <DeleteIcon />
           {t("questions.no")} ({shortcuts.no})
@@ -308,7 +309,8 @@ const QuestionDisplay = ({ question, productData }) => {
             display: "flex",
             flexDirection: "column",
             flexGrow: 2,
-            color: "blue"
+            color: "blue",
+            fontSize: 10
           }}        >
           {t("questions.yes")} ({shortcuts.yes})
         </Button>
@@ -324,7 +326,7 @@ const QuestionDisplay = ({ question, productData }) => {
         variant="contained"
         size="medium"
         autoFocus
-        sx={{ py: "2rem", color: "White", color: "blue" }}
+        sx={{ py: "2rem", color: "White", color: "blue", fontSize: 14 }}
       >
         {t("questions.skip")} ({shortcuts.skip})
       </Button>
