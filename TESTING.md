@@ -8,5 +8,5 @@ We currently have 2 testing folders:
 # Running selenium tests
 
  - ```yarn start``` (have project running locally)
- - ```node tests_sel/test_country_setting.js``` 
+ - ```node tests_sel/*``` 
 

@@ -1,5 +1,4 @@
-var assert = require('assert');
-const {Builder,By, Key} = require ("selenium-webdriver");
+const {Builder,By} = require ("selenium-webdriver");
 
 async function test_drop_down(){
   
@@ -17,7 +16,7 @@ async function test_drop_down(){
   //go to settings
   await driver.get('http://localhost:3000/questions');
 
-  await driver.findElement(By.className('MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root')).click();
+  await driver.findElement(By.className('MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root'));
 
 
 }
