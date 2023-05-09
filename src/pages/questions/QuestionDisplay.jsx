@@ -288,7 +288,7 @@ const QuestionDisplay = ({ question, productData }) => {
             display: "flex",
             flexDirection: "column",
             flexGrow: 5,
-            color: "blue",
+            color: "blue"
           }}        >
           <DeleteIcon />
           {t("questions.no")} ({shortcuts.no})

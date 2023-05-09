@@ -25,7 +25,7 @@ async function test_annotated_count(){
     await driver.actions().sendKeys(Key.ENTER).perform();
     const value_text_input = driver.findElement(By.id(":r5:"));
     value_text_input.sendKeys("nutella");
-    //let update_button = await driver.findElement(By.id(":r7:"));
+    //xlet update_button = await driver.findElement(By.id(":r7:"));
     //await driver.wait(until.elementIsEnabled(update_button), 1000);
     //await update_button.click();
     
