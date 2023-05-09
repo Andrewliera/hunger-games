@@ -297,7 +297,7 @@ export default function LogoSearch() {
       }))
     );
   };
-
+  console.log(annotatedLogos, "annotatedLogos");
   return (
     <Box sx={{ padding: 2 }}>
       <Typography variant="h4" sx={{ mb: 2 }}>
@@ -308,12 +308,13 @@ export default function LogoSearch() {
         every logo you annotate, we will fetch it's neighbors such that you
         might never stop to annotate. (Press Shift to select range of logos)
       </Typography>
+      
       <Divider sx={{ my: 3 }} />
       <LogoForm {...searchState} request={setNewSearchState} />
       {/* {isLoading && <LinearProgress sx={{ mt: 5 }} />} */}
 
       <Typography variant="h5" sx={{ mt: 5, mb: 1 }}>
-        Reference logos (logo already annotated with this value)
+        Annotated logos: {annotatedLogos.length} (logo already annotated with this value)  
       </Typography>
 
       {isLoadingAnnotatedLogos ? (
@@ -333,7 +334,7 @@ export default function LogoSearch() {
 
       <Box sx={{ display: "flex", flexDirection: "row", gap: 1 }}>
         <Typography variant="h5" sx={{ mt: 5, mb: 1 }}>
-          Remaining to annotate
+          Remaining to annotate : {logosToAnnotate.length}
         </Typography>
         <Button
           onClick={selectAllOnPage}

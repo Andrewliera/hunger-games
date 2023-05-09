@@ -7,7 +7,7 @@ async function test_drop_down(){
   let driver = await new Builder().forBrowser('firefox').build();
 
   //navigate to app
-  await driver.get('http://localhost:3000/')
+  await driver.get('http://localhost:3000/');
 
   //exit opening message (using escape wasnt working)
   const hoverable = driver.findElement(By.className('sc-beqWaB heWUWm sc-hLseeU eCViBy reactour__close'));
@@ -27,8 +27,6 @@ async function test_drop_down(){
   
   //get the value
   const label = await driver.findElement(By.id(":r5:")).getText();
-  
-  //
   const test = "Bulgium";
   assert(test === label);
 
